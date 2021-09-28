@@ -1,0 +1,746 @@
+<style type="text/css">#chak_jtp_content { 	 
+	width 100%; 	 
+	margin:2px; 	 
+	align:right; 	 
+	overflow:scroll; 	 
+} 	 
+#tabs {
+	padding: 0px; 
+	background: none; 
+	border-width: 0px;
+} 	 
+#tabs div{
+	width 100%;
+	overflow:scroll;
+} 
+#tabs .ui-tabs-nav {
+	padding-left: 0px; 
+	background: transparent; 
+	border-width: 0px 0px 1px 0px; 
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+#tabs .ui-tabs-panel {
+	background: #f5f3e5;
+	border-width: 0px 1px 1px 1px;
+}
+#tabs div table { 		 
+	border-collapse: collapse; 		 
+	border-spacing: 0; 		 
+	border: 1px solid #bbb; 		 
+	width:100%; 	 
+} 	 
+#tabs div table th{
+	background:#f0f0f0;
+}
+#tabs div table thead th{
+	text-align:center;
+    background-color:turquoise;
+} 	 
+#tabs div table th { 
+	border-top: 0.3px solid #ddd;
+	padding:0;
+}
+#tabs div table td { 
+	padding:0;
+	margin:0;
+}  	 
+#tabs div table td input{
+    width: 100%;
+	padding:0;
+	margin:0;
+	min-width:50px;
+	box-sizing: border-box;
+}
+#tabs div table th input{
+    width: 100%;
+	padding:0;
+	margin:0;
+	min-width:50px;
+	box-sizing: border-box;
+}
+table th span{
+    display: inline-block;
+    margin: 0;
+}
+.highlight { 
+            background:#ff0000 !important;
+}
+.Form_Section, .Details, .Form_Section_body{
+    overflow:visible !important;
+	padding:0;
+	margin:0;
+}
+.Form_Section_Title{
+  /* background-color: #4CAF50;  Green */
+  background-color: turquoise;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+}
+.Form_Section_Title:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* arrow common style */
+.arrow {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.arrow-top {
+  transform: rotate(-45deg);
+}
+.arrow-right {
+  transform: rotate(45deg);
+}
+.arrow-bottom {
+  transform: rotate(135deg);
+}
+.arrow-left {
+  transform: rotate(-135deg);
+}
+.arrow-top-narrow {
+  transform: rotate(-45deg) skew(-15deg, -15deg);
+}
+.arrow-top-wide {
+  transform: rotate(-45deg) skew(7deg, 7deg);
+}
+.arrow-top-left {
+  transform: rotate(-90deg) skew(-10deg, -10deg);
+}
+.arrow-top-right {
+  transform: rotate(0) skew(-10deg, -10deg);
+}
+.arrow-bottom-left {
+  transform: rotate(180deg) skew(-10deg, -10deg);
+}
+.arrow-bottom-right {
+  transform: rotate(90deg) skew(-10deg, -10deg);
+}
+the .vericaltext{
+    writing-mode: vertical-lr;
+    -ms-writing-mode: tb-rl;
+    transform: rotate(180deg);
+}
+tr .background1{
+	background-color: lightblue !important;
+}
+</style>
+<div id="chak_jtp_content">
+<div id="tabs">
+<ul>
+	<li><a href="#tabs-1">SECTION 1</a></li>
+	<li><a href="#tabs-2">SECTION 2</a></li>
+</ul>
+
+<div id="tabs-1">
+<table>
+	<tbody>
+		<tr>
+			<th colspan="2" style="text-align: left;">Indicators</th>
+			<th>Total</th>
+		</tr>
+		<tr>
+			<th colspan="3" style="text-align: left;">Facility TX_CURR (This Reporting Period)</th>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Female HIV + on ART &gt;=19 Years</th>
+			<th>0</th>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Male HIV + on ART &gt;=19 Years</th>
+			<th>0</th>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">CLAHIV on ART &lt;19yrs</th>
+			<th>0</th>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Female HIV + on ART &gt;=19 Years (Proxy 20+ Yrs) Reviewed</th>
+			<td><input id="dvwdGbdUI6U-HllvX50cXC0-val" name="entryfield" title="Female HIV + on ART &gt;=19 Years (Proxy 20+ Yrs)" value="[ Female HIV + on ART &gt;=19 Years (Proxy 20+ Yrs) ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Female HIV + on ART &gt;=19 Years who have biological children</th>
+			<td><input id="cRgfjcVuZ2H-HllvX50cXC0-val" name="entryfield" title="Female HIV + on ART &gt;=19 Years Indexed" value="[ Female HIV + on ART &gt;=19 Years Indexed ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="3" style="text-align: left;">Women living with HIV(WLHIV) who have biological children</th>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Total</th>
+			<td><input id="W2lDyvePUBf-HllvX50cXC0-val" name="entryfield" title="Female HIV + on ART &gt;=19 Years/BiologicalChildren/Total" value="[ Female HIV + on ART &gt;=19 Years/BiologicalChildren/Total ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Known HIV Status</th>
+			<td><input id="PBiAqA978qW-HllvX50cXC0-val" name="entryfield" title="Female HIV + on ART &gt;=19 Years/BiologicalChildren/KnownHIVStatus" value="[ Female HIV + on ART &gt;=19 Years/BiologicalChildren/KnownHIVStatus ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Unkwnon HIV Status</th>
+			<td><input id="MBXJQ8a38WX-HllvX50cXC0-val" name="entryfield" title="Female HIV + on ART &gt;=19 Years/BiologicalChildren/UnknownHIVStatus" value="[ Female HIV + on ART &gt;=19 Years/BiologicalChildren/UnknownHIVStatus ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Male HIV + on ART &gt;=19 Years (Proxy 20+ Yrs) Reviewed</th>
+			<td><input id="iM1BoWkVxW4-HllvX50cXC0-val" name="entryfield" title="Male HIV + on ART &gt;=19 Years (Proxy 20+ Yrs)" value="[ Male HIV + on ART &gt;=19 Years (Proxy 20+ Yrs) ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Male HIV + on ART &gt;=19 Years with biological children &lt;19 yrs with no partners or whose partner status is unknown</th>
+			<td><input id="NalmGWOBCUy-HllvX50cXC0-val" name="entryfield" title="Male HIV + on ART &gt;=19 Years Indexed" value="[ Male HIV + on ART &gt;=19 Years Indexed ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="3" style="text-align: left;">Men living with HIV(MLHIV) with biological children &lt;19 yrs with no partners or whose partner status is unknown&nbsp;</th>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Total</th>
+			<td><input id="m2XMtLEKxM3-HllvX50cXC0-val" name="entryfield" title="Male HIV + on ART &gt;=19 Years/BiologicalChildren/Total" value="[ Male HIV + on ART &gt;=19 Years/BiologicalChildren/Total ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Known HIV Status</th>
+			<td><input id="wNzH8xmBmUh-HllvX50cXC0-val" name="entryfield" title="Male HIV + on ART &gt;=19 Years/BiologicalChildren/KnownHIVStatus" value="[ Male HIV + on ART &gt;=19 Years/BiologicalChildren/KnownHIVStatus ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Unkwnon HIV Status</th>
+			<td><input id="pXkkfBl1wIS-HllvX50cXC0-val" name="entryfield" title="Male HIV + on ART &gt;=19 Years/BiologicalChildren/UnknownHIVStatus" value="[ Male HIV + on ART &gt;=19 Years/BiologicalChildren/UnknownHIVStatus ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">CLAHIV Reported on ART &lt;19 Reviewed</th>
+			<td><input id="qTUh4bZQu58-HllvX50cXC0-val" name="entryfield" title="CLAHIV Reported on ART &lt;19 Years" value="[ CLAHIV Reported on ART &lt;19 Years ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">CLAHIV Reported on ART &lt;19 Years biological siblings whose parents are not part of an adult index cohort</th>
+			<td><input id="swW5O2lvTQV-HllvX50cXC0-val" name="entryfield" title="CLAHIV Reported on ART &lt;19 Years Indexed" value="[ CLAHIV Reported on ART &lt;19 Years Indexed ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="3" style="text-align: left;">C/ALHIV with biological siblings whose parents are not part of an adult index cohort</th>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Total</th>
+			<td><input id="Qa39kDj6Mkj-HllvX50cXC0-val" name="entryfield" title="CLAHIV Reported on ART &lt;19yrs/BiologicalSiblings/Total" value="[ CLAHIV Reported on ART &lt;19yrs/BiologicalSiblings/Total ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Known HIV Status</th>
+			<td><input id="G4fszdruyVX-HllvX50cXC0-val" name="entryfield" title="CLAHIV Reported on ART &lt;19yrs/BiologicalSiblings/KnownHIVStatus" value="[ CLAHIV Reported on ART &lt;19yrs/BiologicalSiblings/KnownHIVStatus ]" /></td>
+		</tr>
+		<tr>
+			<th colspan="2" style="text-align: left;">Unkwnon HIV Status</th>
+			<td><input id="hc8lQjp7yFI-HllvX50cXC0-val" name="entryfield" title="CLAHIV Reported on ART &lt;19yrs/BiologicalSiblings/UnknownHIVStatus" value="[ CLAHIV Reported on ART &lt;19yrs/BiologicalSiblings/UnknownHIVStatus ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-2">
+<table>
+	<tbody>
+		<tr>
+			<th style="text-align: left;">AgeBand</th>
+			<th colspan="2">&lt;1&nbsp;</th>
+			<th colspan="2">1-4 .</th>
+			<th colspan="2">5-9.</th>
+			<th colspan="2">10-14.&nbsp;</th>
+			<th colspan="2">15-17.</th>
+			<th colspan="2">18-19 .</th>
+			<th>Total</th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Sex</th>
+			<th>F</th>
+			<th>M</th>
+			<th>F</th>
+			<th>M</th>
+			<th>F</th>
+			<th>M</th>
+			<th>F</th>
+			<th>M</th>
+			<th>F</th>
+			<th>M</th>
+			<th>F</th>
+			<th>M</th>
+			<th>Total</th>
+		</tr>
+		<tr>
+			<th colspan="14" style="text-align: left;">Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients</th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Total</th>
+			<td><input id="mqCjihynQ0S-dcv8Lowu94w-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total &lt;1 year(Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="mqCjihynQ0S-AwerOu6rx5q-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total &lt;1 year(Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="mqCjihynQ0S-D2aMSzo7SEw-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 1-4 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 1-4 years (Specific), Female ]" /></td>
+			<td><input id="mqCjihynQ0S-g2zP3yNwOOa-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 1-4 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 1-4 years (Specific), Male ]" /></td>
+			<td><input id="mqCjihynQ0S-HIS0TcFAoo8-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 5-9 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 5-9 years (Specific), Female ]" /></td>
+			<td><input id="mqCjihynQ0S-WTfu1bBSG12-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 5-9 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 5-9 years (Specific), Male ]" /></td>
+			<td><input id="mqCjihynQ0S-Rr3uh3eAvKi-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 10-14 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 10-14 years (Specific), Female ]" /></td>
+			<td><input id="mqCjihynQ0S-X65JamO5tyb-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 10-14 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 10-14 years (Specific), Male ]" /></td>
+			<td><input id="mqCjihynQ0S-HUHnBK7RsPm-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 15-17 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 15-17 years (Specific), Female ]" /></td>
+			<td><input id="mqCjihynQ0S-Fe1ZE3jE3fp-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 15-17 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 15-17 years (Specific), Male ]" /></td>
+			<td><input id="mqCjihynQ0S-NAmjnJNHnFr-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 18-19 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 18-19 years (Specific), Female ]" /></td>
+			<td><input id="mqCjihynQ0S-KtEEbwUrY6H-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 18-19 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="mqCjihynQ0S" disabled="disabled" id="totalmqCjihynQ0S" name="total" readonly="readonly" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Total ]" /></th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">HIV-</th>
+			<td><input id="YVwmij6OP0z-dcv8Lowu94w-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- &lt;1 year(Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="YVwmij6OP0z-AwerOu6rx5q-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- &lt;1 year(Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="YVwmij6OP0z-D2aMSzo7SEw-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 1-4 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 1-4 years (Specific), Female ]" /></td>
+			<td><input id="YVwmij6OP0z-g2zP3yNwOOa-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 1-4 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 1-4 years (Specific), Male ]" /></td>
+			<td><input id="YVwmij6OP0z-HIS0TcFAoo8-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 5-9 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 5-9 years (Specific), Female ]" /></td>
+			<td><input id="YVwmij6OP0z-WTfu1bBSG12-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 5-9 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 5-9 years (Specific), Male ]" /></td>
+			<td><input id="YVwmij6OP0z-Rr3uh3eAvKi-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 10-14 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 10-14 years (Specific), Female ]" /></td>
+			<td><input id="YVwmij6OP0z-X65JamO5tyb-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 10-14 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 10-14 years (Specific), Male ]" /></td>
+			<td><input id="YVwmij6OP0z-HUHnBK7RsPm-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 15-17 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 15-17 years (Specific), Female ]" /></td>
+			<td><input id="YVwmij6OP0z-Fe1ZE3jE3fp-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 15-17 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 15-17 years (Specific), Male ]" /></td>
+			<td><input id="YVwmij6OP0z-NAmjnJNHnFr-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 18-19 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 18-19 years (Specific), Female ]" /></td>
+			<td><input id="YVwmij6OP0z-KtEEbwUrY6H-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 18-19 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="YVwmij6OP0z" disabled="disabled" id="totalYVwmij6OP0z" name="total" readonly="readonly" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV-" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV- ]" /></th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">HIV +&nbsp;</th>
+			<td><input id="BHNz3OH0rZS-dcv8Lowu94w-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� &lt;1 year(Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="BHNz3OH0rZS-AwerOu6rx5q-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� &lt;1 year(Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="BHNz3OH0rZS-D2aMSzo7SEw-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 1-4 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 1-4 years (Specific), Female ]" /></td>
+			<td><input id="BHNz3OH0rZS-g2zP3yNwOOa-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 1-4 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 1-4 years (Specific), Male ]" /></td>
+			<td><input id="BHNz3OH0rZS-HIS0TcFAoo8-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 5-9 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 5-9 years (Specific), Female ]" /></td>
+			<td><input id="BHNz3OH0rZS-WTfu1bBSG12-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 5-9 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 5-9 years (Specific), Male ]" /></td>
+			<td><input id="BHNz3OH0rZS-Rr3uh3eAvKi-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 10-14 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 10-14 years (Specific), Female ]" /></td>
+			<td><input id="BHNz3OH0rZS-X65JamO5tyb-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 10-14 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 10-14 years (Specific), Male ]" /></td>
+			<td><input id="BHNz3OH0rZS-HUHnBK7RsPm-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 15-17 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 15-17 years (Specific), Female ]" /></td>
+			<td><input id="BHNz3OH0rZS-Fe1ZE3jE3fp-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 15-17 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 15-17 years (Specific), Male ]" /></td>
+			<td><input id="BHNz3OH0rZS-NAmjnJNHnFr-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 18-19 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 18-19 years (Specific), Female ]" /></td>
+			<td><input id="BHNz3OH0rZS-KtEEbwUrY6H-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 18-19 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="BHNz3OH0rZS" disabled="disabled" id="totalBHNz3OH0rZS" name="total" readonly="readonly" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +�" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : HIV +� ]" /></th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Unknown HIV Status</th>
+			<td><input id="pUJoBBYbeoL-dcv8Lowu94w-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status &lt;1 year(Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="pUJoBBYbeoL-AwerOu6rx5q-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status &lt;1 year(Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="pUJoBBYbeoL-D2aMSzo7SEw-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 1-4 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 1-4 years (Specific), Female ]" /></td>
+			<td><input id="pUJoBBYbeoL-g2zP3yNwOOa-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 1-4 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 1-4 years (Specific), Male ]" /></td>
+			<td><input id="pUJoBBYbeoL-HIS0TcFAoo8-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 5-9 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 5-9 years (Specific), Female ]" /></td>
+			<td><input id="pUJoBBYbeoL-WTfu1bBSG12-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 5-9 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 5-9 years (Specific), Male ]" /></td>
+			<td><input id="pUJoBBYbeoL-Rr3uh3eAvKi-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 10-14 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 10-14 years (Specific), Female ]" /></td>
+			<td><input id="pUJoBBYbeoL-X65JamO5tyb-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 10-14 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 10-14 years (Specific), Male ]" /></td>
+			<td><input id="pUJoBBYbeoL-HUHnBK7RsPm-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 15-17 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 15-17 years (Specific), Female ]" /></td>
+			<td><input id="pUJoBBYbeoL-Fe1ZE3jE3fp-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 15-17 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 15-17 years (Specific), Male ]" /></td>
+			<td><input id="pUJoBBYbeoL-NAmjnJNHnFr-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 18-19 years (Specific), Female" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 18-19 years (Specific), Female ]" /></td>
+			<td><input id="pUJoBBYbeoL-KtEEbwUrY6H-val" name="entryfield" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 18-19 years (Specific), Male" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="pUJoBBYbeoL" disabled="disabled" id="totalpUJoBBYbeoL" name="total" readonly="readonly" title="Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status" value="[ Step 2: # biological children &amp; siblings &lt;19 Yrs of these identified clients : Unknown HIV Status ]" /></th>
+		</tr>
+		<tr>
+			<th colspan="14" style="text-align: left;">&nbsp;From Unknown HIV Status</th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">In the OVC program</th>
+			<td><input id="cWNJ81xK83F-dcv8Lowu94w-val" name="entryfield" title="�From Unknown HIV Status : In the OVC program &lt;1 year(Specific), Female" value="[ �From Unknown HIV Status : In the OVC program &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="cWNJ81xK83F-AwerOu6rx5q-val" name="entryfield" title="�From Unknown HIV Status : In the OVC program &lt;1 year(Specific), Male" value="[ �From Unknown HIV Status : In the OVC program &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="cWNJ81xK83F-D2aMSzo7SEw-val" name="entryfield" title="�From Unknown HIV Status : In the OVC program 1-4 years (Specific), Female" value="[ �From Unknown HIV Status : In the OVC program 1-4 years (Specific), Female ]" /></td>
+			<td><input id="cWNJ81xK83F-g2zP3yNwOOa-val" name="entryfield" title="�From Unknown HIV Status : In the OVC program 1-4 years (Specific), Male" value="[ �From Unknown HIV Status : In the OVC program 1-4 years (Specific), Male ]" /></td>
+			<td><input id="cWNJ81xK83F-HIS0TcFAoo8-val" name="entryfield" title="�From Unknown HIV Status : In the OVC program 5-9 years (Specific), Female" value="[ �From Unknown HIV Status : In the OVC program 5-9 years (Specific), Female ]" /></td>
+			<td><input id="cWNJ81xK83F-WTfu1bBSG12-val" name="entryfield" title="�From Unknown HIV Status : In the OVC program 5-9 years (Specific), Male" value="[ �From Unknown HIV Status : In the OVC program 5-9 years (Specific), Male ]" /></td>
+			<td><input id="cWNJ81xK83F-Rr3uh3eAvKi-val" name="entryfield" title="�From Unknown HIV Status : In the OVC program 10-14 years (Specific), Female" value="[ �From Unknown HIV Status : In the OVC program 10-14 years (Specific), Female ]" /></td>
+			<td><input id="cWNJ81xK83F-X65JamO5tyb-val" name="entryfield" title="�From Unknown HIV Status : In the OVC program 10-14 years (Specific), Male" value="[ �From Unknown HIV Status : In the OVC program 10-14 years (Specific), Male ]" /></td>
+			<td><input id="cWNJ81xK83F-HUHnBK7RsPm-val" name="entryfield" title="�From Unknown HIV Status : In the OVC program 15-17 years (Specific), Female" value="[ �From Unknown HIV Status : In the OVC program 15-17 years (Specific), Female ]" /></td>
+			<td><input id="cWNJ81xK83F-Fe1ZE3jE3fp-val" name="entryfield" title="�From Unknown HIV Status : In the OVC program 15-17 years (Specific), Male" value="[ �From Unknown HIV Status : In the OVC program 15-17 years (Specific), Male ]" /></td>
+			<td><input id="cWNJ81xK83F-NAmjnJNHnFr-val" name="entryfield" title="�From Unknown HIV Status : In the OVC program 18-19 years (Specific), Female" value="[ �From Unknown HIV Status : In the OVC program 18-19 years (Specific), Female ]" /></td>
+			<td><input id="cWNJ81xK83F-KtEEbwUrY6H-val" name="entryfield" title="�From Unknown HIV Status : In the OVC program 18-19 years (Specific), Male" value="[ �From Unknown HIV Status : In the OVC program 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="cWNJ81xK83F" disabled="disabled" id="totalcWNJ81xK83F" name="total" readonly="readonly" title="�From Unknown HIV Status : In the OVC program" value="[ �From Unknown HIV Status : In the OVC program ]" /></th>
+		</tr>
+		<tr>
+			<th colspan="14" style="text-align: left;">Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test</th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Clinic Staff</th>
+			<td><input id="X3MBNgDrgc8-dcv8Lowu94w-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff &lt;1 year(Specific), Female" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="X3MBNgDrgc8-AwerOu6rx5q-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff &lt;1 year(Specific), Male" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="X3MBNgDrgc8-D2aMSzo7SEw-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 1-4 years (Specific), Female" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 1-4 years (Specific), Female ]" /></td>
+			<td><input id="X3MBNgDrgc8-g2zP3yNwOOa-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 1-4 years (Specific), Male" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 1-4 years (Specific), Male ]" /></td>
+			<td><input id="X3MBNgDrgc8-HIS0TcFAoo8-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 5-9 years (Specific), Female" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 5-9 years (Specific), Female ]" /></td>
+			<td><input id="X3MBNgDrgc8-WTfu1bBSG12-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 5-9 years (Specific), Male" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 5-9 years (Specific), Male ]" /></td>
+			<td><input id="X3MBNgDrgc8-Rr3uh3eAvKi-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 10-14 years (Specific), Female" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 10-14 years (Specific), Female ]" /></td>
+			<td><input id="X3MBNgDrgc8-X65JamO5tyb-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 10-14 years (Specific), Male" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 10-14 years (Specific), Male ]" /></td>
+			<td><input id="X3MBNgDrgc8-HUHnBK7RsPm-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 15-17 years (Specific), Female" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 15-17 years (Specific), Female ]" /></td>
+			<td><input id="X3MBNgDrgc8-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 15-17 years (Specific), Male" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 15-17 years (Specific), Male ]" /></td>
+			<td><input id="X3MBNgDrgc8-NAmjnJNHnFr-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 18-19 years (Specific), Female" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 18-19 years (Specific), Female ]" /></td>
+			<td><input id="X3MBNgDrgc8-KtEEbwUrY6H-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 18-19 years (Specific), Male" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="X3MBNgDrgc8" disabled="disabled" id="totalX3MBNgDrgc8" name="total" readonly="readonly" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : Clinic Staff ]" /></th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">OVC Staff</th>
+			<td><input id="okKfCLS2a0q-dcv8Lowu94w-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff &lt;1 year(Specific), Female" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="okKfCLS2a0q-AwerOu6rx5q-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff &lt;1 year(Specific), Male" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="okKfCLS2a0q-D2aMSzo7SEw-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 1-4 years (Specific), Female" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 1-4 years (Specific), Female ]" /></td>
+			<td><input id="okKfCLS2a0q-g2zP3yNwOOa-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 1-4 years (Specific), Male" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 1-4 years (Specific), Male ]" /></td>
+			<td><input id="okKfCLS2a0q-HIS0TcFAoo8-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 5-9 years (Specific), Female" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 5-9 years (Specific), Female ]" /></td>
+			<td><input id="okKfCLS2a0q-WTfu1bBSG12-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 5-9 years (Specific), Male" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 5-9 years (Specific), Male ]" /></td>
+			<td><input id="okKfCLS2a0q-Rr3uh3eAvKi-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 10-14 years (Specific), Female" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 10-14 years (Specific), Female ]" /></td>
+			<td><input id="okKfCLS2a0q-X65JamO5tyb-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 10-14 years (Specific), Male" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 10-14 years (Specific), Male ]" /></td>
+			<td><input id="okKfCLS2a0q-HUHnBK7RsPm-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 15-17 years (Specific), Female" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 15-17 years (Specific), Female ]" /></td>
+			<td><input id="okKfCLS2a0q-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 15-17 years (Specific), Male" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 15-17 years (Specific), Male ]" /></td>
+			<td><input id="okKfCLS2a0q-NAmjnJNHnFr-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 18-19 years (Specific), Female" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 18-19 years (Specific), Female ]" /></td>
+			<td><input id="okKfCLS2a0q-KtEEbwUrY6H-val" name="entryfield" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 18-19 years (Specific), Male" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="okKfCLS2a0q" disabled="disabled" id="totalokKfCLS2a0q" name="total" readonly="readonly" title="Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff" value="[ Step 4a:# of children/adolescents whose parents were CONTACTED about their child getting an HIV test : OVC Staff ]" /></th>
+		</tr>
+		<tr>
+			<th colspan="14" style="text-align: left;">Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how&nbsp; many were REACHED?</th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Clinic Staff</th>
+			<td><input id="IYI1qQGQUyh-dcv8Lowu94w-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff &lt;1 year(Specific), Female" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="IYI1qQGQUyh-AwerOu6rx5q-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff &lt;1 year(Specific), Male" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="IYI1qQGQUyh-D2aMSzo7SEw-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 1-4 years (Specific), Female" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 1-4 years (Specific), Female ]" /></td>
+			<td><input id="IYI1qQGQUyh-g2zP3yNwOOa-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 1-4 years (Specific), Male" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 1-4 years (Specific), Male ]" /></td>
+			<td><input id="IYI1qQGQUyh-HIS0TcFAoo8-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 5-9 years (Specific), Female" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 5-9 years (Specific), Female ]" /></td>
+			<td><input id="IYI1qQGQUyh-WTfu1bBSG12-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 5-9 years (Specific), Male" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 5-9 years (Specific), Male ]" /></td>
+			<td><input id="IYI1qQGQUyh-Rr3uh3eAvKi-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 10-14 years (Specific), Female" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 10-14 years (Specific), Female ]" /></td>
+			<td><input id="IYI1qQGQUyh-X65JamO5tyb-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 10-14 years (Specific), Male" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 10-14 years (Specific), Male ]" /></td>
+			<td><input id="IYI1qQGQUyh-HUHnBK7RsPm-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 15-17 years (Specific), Female" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 15-17 years (Specific), Female ]" /></td>
+			<td><input id="IYI1qQGQUyh-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 15-17 years (Specific), Male" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 15-17 years (Specific), Male ]" /></td>
+			<td><input id="IYI1qQGQUyh-NAmjnJNHnFr-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 18-19 years (Specific), Female" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 18-19 years (Specific), Female ]" /></td>
+			<td><input id="IYI1qQGQUyh-KtEEbwUrY6H-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 18-19 years (Specific), Male" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="IYI1qQGQUyh" disabled="disabled" id="totalIYI1qQGQUyh" name="total" readonly="readonly" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : Clinic Staff ]" /></th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">OVC Staff</th>
+			<td><input id="kbiunWRpdKW-dcv8Lowu94w-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff &lt;1 year(Specific), Female" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="kbiunWRpdKW-AwerOu6rx5q-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff &lt;1 year(Specific), Male" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="kbiunWRpdKW-D2aMSzo7SEw-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 1-4 years (Specific), Female" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 1-4 years (Specific), Female ]" /></td>
+			<td><input id="kbiunWRpdKW-g2zP3yNwOOa-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 1-4 years (Specific), Male" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 1-4 years (Specific), Male ]" /></td>
+			<td><input id="kbiunWRpdKW-HIS0TcFAoo8-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 5-9 years (Specific), Female" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 5-9 years (Specific), Female ]" /></td>
+			<td><input id="kbiunWRpdKW-WTfu1bBSG12-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 5-9 years (Specific), Male" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 5-9 years (Specific), Male ]" /></td>
+			<td><input id="kbiunWRpdKW-Rr3uh3eAvKi-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 10-14 years (Specific), Female" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 10-14 years (Specific), Female ]" /></td>
+			<td><input id="kbiunWRpdKW-X65JamO5tyb-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 10-14 years (Specific), Male" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 10-14 years (Specific), Male ]" /></td>
+			<td><input id="kbiunWRpdKW-HUHnBK7RsPm-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 15-17 years (Specific), Female" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 15-17 years (Specific), Female ]" /></td>
+			<td><input id="kbiunWRpdKW-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 15-17 years (Specific), Male" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 15-17 years (Specific), Male ]" /></td>
+			<td><input id="kbiunWRpdKW-NAmjnJNHnFr-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 18-19 years (Specific), Female" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 18-19 years (Specific), Female ]" /></td>
+			<td><input id="kbiunWRpdKW-KtEEbwUrY6H-val" name="entryfield" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 18-19 years (Specific), Male" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="kbiunWRpdKW" disabled="disabled" id="totalkbiunWRpdKW" name="total" readonly="readonly" title="Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff" value="[ Step 4b: Of the children/adolescents whose parents were contacted about their child getting an HIV test, how� many were REACHED? : OVC Staff ]" /></th>
+		</tr>
+		<tr>
+			<th colspan="14" style="text-align: left;">Step4c: either gave CONSENT, or their parent&rsquo;s gave consent,&nbsp; to get tested?</th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Consent given by required person</th>
+			<td><input id="xWh0OOSvGvk-dcv8Lowu94w-val" name="entryfield" title="Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person &lt;1 year(Specific), Female" value="[ Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="xWh0OOSvGvk-AwerOu6rx5q-val" name="entryfield" title="Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person &lt;1 year(Specific), Male" value="[ Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="xWh0OOSvGvk-D2aMSzo7SEw-val" name="entryfield" title="Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 1-4 years (Specific), Female" value="[ Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 1-4 years (Specific), Female ]" /></td>
+			<td><input id="xWh0OOSvGvk-g2zP3yNwOOa-val" name="entryfield" title="Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 1-4 years (Specific), Male" value="[ Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 1-4 years (Specific), Male ]" /></td>
+			<td><input id="xWh0OOSvGvk-HIS0TcFAoo8-val" name="entryfield" title="Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 5-9 years (Specific), Female" value="[ Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 5-9 years (Specific), Female ]" /></td>
+			<td><input id="xWh0OOSvGvk-WTfu1bBSG12-val" name="entryfield" title="Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 5-9 years (Specific), Male" value="[ Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 5-9 years (Specific), Male ]" /></td>
+			<td><input id="xWh0OOSvGvk-Rr3uh3eAvKi-val" name="entryfield" title="Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 10-14 years (Specific), Female" value="[ Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 10-14 years (Specific), Female ]" /></td>
+			<td><input id="xWh0OOSvGvk-X65JamO5tyb-val" name="entryfield" title="Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 10-14 years (Specific), Male" value="[ Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 10-14 years (Specific), Male ]" /></td>
+			<td><input id="xWh0OOSvGvk-HUHnBK7RsPm-val" name="entryfield" title="Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 15-17 years (Specific), Female" value="[ Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 15-17 years (Specific), Female ]" /></td>
+			<td><input id="xWh0OOSvGvk-Fe1ZE3jE3fp-val" name="entryfield" title="Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 15-17 years (Specific), Male" value="[ Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 15-17 years (Specific), Male ]" /></td>
+			<td><input id="xWh0OOSvGvk-NAmjnJNHnFr-val" name="entryfield" title="Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 18-19 years (Specific), Female" value="[ Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 18-19 years (Specific), Female ]" /></td>
+			<td><input id="xWh0OOSvGvk-KtEEbwUrY6H-val" name="entryfield" title="Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 18-19 years (Specific), Male" value="[ Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="xWh0OOSvGvk" disabled="disabled" id="totalxWh0OOSvGvk" name="total" readonly="readonly" title="Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person" value="[ Step4c: either gave CONSENT, or their parent�s gave consent,� to get tested? : Consent given by required person ]" /></th>
+		</tr>
+		<tr>
+			<th colspan="14" style="text-align: left;">Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV?</th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Tested by Clinic Staff</th>
+			<td><input id="EUfTLt1pNaQ-dcv8Lowu94w-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff &lt;1 year(Specific), Female" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="EUfTLt1pNaQ-AwerOu6rx5q-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff &lt;1 year(Specific), Male" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="EUfTLt1pNaQ-D2aMSzo7SEw-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 1-4 years (Specific), Female" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 1-4 years (Specific), Female ]" /></td>
+			<td><input id="EUfTLt1pNaQ-g2zP3yNwOOa-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 1-4 years (Specific), Male" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 1-4 years (Specific), Male ]" /></td>
+			<td><input id="EUfTLt1pNaQ-HIS0TcFAoo8-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 5-9 years (Specific), Female" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 5-9 years (Specific), Female ]" /></td>
+			<td><input id="EUfTLt1pNaQ-WTfu1bBSG12-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 5-9 years (Specific), Male" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 5-9 years (Specific), Male ]" /></td>
+			<td><input id="EUfTLt1pNaQ-Rr3uh3eAvKi-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 10-14 years (Specific), Female" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 10-14 years (Specific), Female ]" /></td>
+			<td><input id="EUfTLt1pNaQ-X65JamO5tyb-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 10-14 years (Specific), Male" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 10-14 years (Specific), Male ]" /></td>
+			<td><input id="EUfTLt1pNaQ-HUHnBK7RsPm-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 15-17 years (Specific), Female" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 15-17 years (Specific), Female ]" /></td>
+			<td><input id="EUfTLt1pNaQ-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 15-17 years (Specific), Male" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 15-17 years (Specific), Male ]" /></td>
+			<td><input id="EUfTLt1pNaQ-NAmjnJNHnFr-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 18-19 years (Specific), Female" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 18-19 years (Specific), Female ]" /></td>
+			<td><input id="EUfTLt1pNaQ-KtEEbwUrY6H-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 18-19 years (Specific), Male" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="EUfTLt1pNaQ" disabled="disabled" id="totalEUfTLt1pNaQ" name="total" readonly="readonly" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by Clinic Staff ]" /></th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Tested by OVC Staff</th>
+			<td><input id="OWn0sDjGBPe-dcv8Lowu94w-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff &lt;1 year(Specific), Female" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="OWn0sDjGBPe-AwerOu6rx5q-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff &lt;1 year(Specific), Male" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="OWn0sDjGBPe-D2aMSzo7SEw-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 1-4 years (Specific), Female" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 1-4 years (Specific), Female ]" /></td>
+			<td><input id="OWn0sDjGBPe-g2zP3yNwOOa-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 1-4 years (Specific), Male" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 1-4 years (Specific), Male ]" /></td>
+			<td><input id="OWn0sDjGBPe-HIS0TcFAoo8-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 5-9 years (Specific), Female" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 5-9 years (Specific), Female ]" /></td>
+			<td><input id="OWn0sDjGBPe-WTfu1bBSG12-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 5-9 years (Specific), Male" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 5-9 years (Specific), Male ]" /></td>
+			<td><input id="OWn0sDjGBPe-Rr3uh3eAvKi-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 10-14 years (Specific), Female" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 10-14 years (Specific), Female ]" /></td>
+			<td><input id="OWn0sDjGBPe-X65JamO5tyb-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 10-14 years (Specific), Male" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 10-14 years (Specific), Male ]" /></td>
+			<td><input id="OWn0sDjGBPe-HUHnBK7RsPm-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 15-17 years (Specific), Female" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 15-17 years (Specific), Female ]" /></td>
+			<td><input id="OWn0sDjGBPe-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 15-17 years (Specific), Male" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 15-17 years (Specific), Male ]" /></td>
+			<td><input id="OWn0sDjGBPe-NAmjnJNHnFr-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 18-19 years (Specific), Female" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 18-19 years (Specific), Female ]" /></td>
+			<td><input id="OWn0sDjGBPe-KtEEbwUrY6H-val" name="entryfield" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 18-19 years (Specific), Male" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="OWn0sDjGBPe" disabled="disabled" id="totalOWn0sDjGBPe" name="total" readonly="readonly" title="Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff" value="[ Step 4d: How many of the total # biological children and siblings receiving parental consent or providing their own consent (if old enough) in Step #4c were TESTED for HIV? : Tested by OVC Staff ]" /></th>
+		</tr>
+		<tr>
+			<th colspan="14" style="text-align: left;">Step 4e:&nbsp; How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate?</th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">HIV-</th>
+			<td><input id="xUR1nD5kgPE-dcv8Lowu94w-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- &lt;1 year(Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="xUR1nD5kgPE-AwerOu6rx5q-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- &lt;1 year(Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="xUR1nD5kgPE-D2aMSzo7SEw-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 1-4 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 1-4 years (Specific), Female ]" /></td>
+			<td><input id="xUR1nD5kgPE-g2zP3yNwOOa-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 1-4 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 1-4 years (Specific), Male ]" /></td>
+			<td><input id="xUR1nD5kgPE-HIS0TcFAoo8-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 5-9 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 5-9 years (Specific), Female ]" /></td>
+			<td><input id="xUR1nD5kgPE-WTfu1bBSG12-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 5-9 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 5-9 years (Specific), Male ]" /></td>
+			<td><input id="xUR1nD5kgPE-Rr3uh3eAvKi-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 10-14 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 10-14 years (Specific), Female ]" /></td>
+			<td><input id="xUR1nD5kgPE-X65JamO5tyb-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 10-14 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 10-14 years (Specific), Male ]" /></td>
+			<td><input id="xUR1nD5kgPE-HUHnBK7RsPm-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 15-17 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 15-17 years (Specific), Female ]" /></td>
+			<td><input id="xUR1nD5kgPE-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 15-17 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 15-17 years (Specific), Male ]" /></td>
+			<td><input id="xUR1nD5kgPE-NAmjnJNHnFr-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 18-19 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 18-19 years (Specific), Female ]" /></td>
+			<td><input id="xUR1nD5kgPE-KtEEbwUrY6H-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 18-19 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="xUR1nD5kgPE" disabled="disabled" id="totalxUR1nD5kgPE" name="total" readonly="readonly" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV-" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV- ]" /></th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Indeterminate</th>
+			<td><input id="rAuphUcZPvF-dcv8Lowu94w-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate &lt;1 year(Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="rAuphUcZPvF-AwerOu6rx5q-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate &lt;1 year(Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="rAuphUcZPvF-D2aMSzo7SEw-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 1-4 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 1-4 years (Specific), Female ]" /></td>
+			<td><input id="rAuphUcZPvF-g2zP3yNwOOa-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 1-4 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 1-4 years (Specific), Male ]" /></td>
+			<td><input id="rAuphUcZPvF-HIS0TcFAoo8-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 5-9 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 5-9 years (Specific), Female ]" /></td>
+			<td><input id="rAuphUcZPvF-WTfu1bBSG12-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 5-9 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 5-9 years (Specific), Male ]" /></td>
+			<td><input id="rAuphUcZPvF-Rr3uh3eAvKi-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 10-14 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 10-14 years (Specific), Female ]" /></td>
+			<td><input id="rAuphUcZPvF-X65JamO5tyb-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 10-14 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 10-14 years (Specific), Male ]" /></td>
+			<td><input id="rAuphUcZPvF-HUHnBK7RsPm-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 15-17 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 15-17 years (Specific), Female ]" /></td>
+			<td><input id="rAuphUcZPvF-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 15-17 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 15-17 years (Specific), Male ]" /></td>
+			<td><input id="rAuphUcZPvF-NAmjnJNHnFr-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 18-19 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 18-19 years (Specific), Female ]" /></td>
+			<td><input id="rAuphUcZPvF-KtEEbwUrY6H-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 18-19 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="rAuphUcZPvF" disabled="disabled" id="totalrAuphUcZPvF" name="total" readonly="readonly" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : Indeterminate ]" /></th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">HIV +&nbsp;</th>
+			<td><input id="CBmmMPYNu0i-dcv8Lowu94w-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� &lt;1 year(Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="CBmmMPYNu0i-AwerOu6rx5q-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� &lt;1 year(Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="CBmmMPYNu0i-D2aMSzo7SEw-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 1-4 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 1-4 years (Specific), Female ]" /></td>
+			<td><input id="CBmmMPYNu0i-g2zP3yNwOOa-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 1-4 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 1-4 years (Specific), Male ]" /></td>
+			<td><input id="CBmmMPYNu0i-HIS0TcFAoo8-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 5-9 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 5-9 years (Specific), Female ]" /></td>
+			<td><input id="CBmmMPYNu0i-WTfu1bBSG12-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 5-9 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 5-9 years (Specific), Male ]" /></td>
+			<td><input id="CBmmMPYNu0i-Rr3uh3eAvKi-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 10-14 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 10-14 years (Specific), Female ]" /></td>
+			<td><input id="CBmmMPYNu0i-X65JamO5tyb-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 10-14 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 10-14 years (Specific), Male ]" /></td>
+			<td><input id="CBmmMPYNu0i-HUHnBK7RsPm-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 15-17 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 15-17 years (Specific), Female ]" /></td>
+			<td><input id="CBmmMPYNu0i-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 15-17 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 15-17 years (Specific), Male ]" /></td>
+			<td><input id="CBmmMPYNu0i-NAmjnJNHnFr-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 18-19 years (Specific), Female" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 18-19 years (Specific), Female ]" /></td>
+			<td><input id="CBmmMPYNu0i-KtEEbwUrY6H-val" name="entryfield" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 18-19 years (Specific), Male" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="CBmmMPYNu0i" disabled="disabled" id="totalCBmmMPYNu0i" name="total" readonly="readonly" title="Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +�" value="[ Step 4e:� How many of the total # of biological children and siblings receiving an HIV test in Step #4d were positive, negative and indeterminate? : HIV +� ]" /></th>
+		</tr>
+		<tr>
+			<th colspan="14" style="text-align: left;">Step 4f: # identified with HIV in Step #4e were linked to ART.</th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">On ART</th>
+			<td><input id="Ad71VZMPFS7-dcv8Lowu94w-val" name="entryfield" title="Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART &lt;1 year(Specific), Female" value="[ Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="Ad71VZMPFS7-AwerOu6rx5q-val" name="entryfield" title="Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART &lt;1 year(Specific), Male" value="[ Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="Ad71VZMPFS7-D2aMSzo7SEw-val" name="entryfield" title="Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 1-4 years (Specific), Female" value="[ Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 1-4 years (Specific), Female ]" /></td>
+			<td><input id="Ad71VZMPFS7-g2zP3yNwOOa-val" name="entryfield" title="Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 1-4 years (Specific), Male" value="[ Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 1-4 years (Specific), Male ]" /></td>
+			<td><input id="Ad71VZMPFS7-HIS0TcFAoo8-val" name="entryfield" title="Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 5-9 years (Specific), Female" value="[ Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 5-9 years (Specific), Female ]" /></td>
+			<td><input id="Ad71VZMPFS7-WTfu1bBSG12-val" name="entryfield" title="Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 5-9 years (Specific), Male" value="[ Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 5-9 years (Specific), Male ]" /></td>
+			<td><input id="Ad71VZMPFS7-Rr3uh3eAvKi-val" name="entryfield" title="Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 10-14 years (Specific), Female" value="[ Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 10-14 years (Specific), Female ]" /></td>
+			<td><input id="Ad71VZMPFS7-X65JamO5tyb-val" name="entryfield" title="Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 10-14 years (Specific), Male" value="[ Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 10-14 years (Specific), Male ]" /></td>
+			<td><input id="Ad71VZMPFS7-HUHnBK7RsPm-val" name="entryfield" title="Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 15-17 years (Specific), Female" value="[ Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 15-17 years (Specific), Female ]" /></td>
+			<td><input id="Ad71VZMPFS7-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 15-17 years (Specific), Male" value="[ Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 15-17 years (Specific), Male ]" /></td>
+			<td><input id="Ad71VZMPFS7-NAmjnJNHnFr-val" name="entryfield" title="Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 18-19 years (Specific), Female" value="[ Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 18-19 years (Specific), Female ]" /></td>
+			<td><input id="Ad71VZMPFS7-KtEEbwUrY6H-val" name="entryfield" title="Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 18-19 years (Specific), Male" value="[ Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="Ad71VZMPFS7" disabled="disabled" id="totalAd71VZMPFS7" name="total" readonly="readonly" title="Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART" value="[ Step 4f: # identified with HIV in Step #4e were linked to ART. : On ART ]" /></th>
+		</tr>
+		<tr>
+			<th colspan="14" style="text-align: left;">Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were:</th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Assessed</th>
+			<td><input id="GEM27BIEoeq-dcv8Lowu94w-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed &lt;1 year(Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="GEM27BIEoeq-AwerOu6rx5q-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed &lt;1 year(Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="GEM27BIEoeq-D2aMSzo7SEw-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 1-4 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 1-4 years (Specific), Female ]" /></td>
+			<td><input id="GEM27BIEoeq-g2zP3yNwOOa-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 1-4 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 1-4 years (Specific), Male ]" /></td>
+			<td><input id="GEM27BIEoeq-HIS0TcFAoo8-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 5-9 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 5-9 years (Specific), Female ]" /></td>
+			<td><input id="GEM27BIEoeq-WTfu1bBSG12-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 5-9 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 5-9 years (Specific), Male ]" /></td>
+			<td><input id="GEM27BIEoeq-Rr3uh3eAvKi-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 10-14 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 10-14 years (Specific), Female ]" /></td>
+			<td><input id="GEM27BIEoeq-X65JamO5tyb-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 10-14 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 10-14 years (Specific), Male ]" /></td>
+			<td><input id="GEM27BIEoeq-HUHnBK7RsPm-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 15-17 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 15-17 years (Specific), Female ]" /></td>
+			<td><input id="GEM27BIEoeq-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 15-17 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 15-17 years (Specific), Male ]" /></td>
+			<td><input id="GEM27BIEoeq-NAmjnJNHnFr-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 18-19 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 18-19 years (Specific), Female ]" /></td>
+			<td><input id="GEM27BIEoeq-KtEEbwUrY6H-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 18-19 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="GEM27BIEoeq" disabled="disabled" id="totalGEM27BIEoeq" name="total" readonly="readonly" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Assessed ]" /></th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Already enrolled in the OVC program</th>
+			<td><input id="eXLq0cjorxs-dcv8Lowu94w-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program &lt;1 year(Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="eXLq0cjorxs-AwerOu6rx5q-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program &lt;1 year(Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="eXLq0cjorxs-D2aMSzo7SEw-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 1-4 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 1-4 years (Specific), Female ]" /></td>
+			<td><input id="eXLq0cjorxs-g2zP3yNwOOa-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 1-4 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 1-4 years (Specific), Male ]" /></td>
+			<td><input id="eXLq0cjorxs-HIS0TcFAoo8-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 5-9 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 5-9 years (Specific), Female ]" /></td>
+			<td><input id="eXLq0cjorxs-WTfu1bBSG12-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 5-9 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 5-9 years (Specific), Male ]" /></td>
+			<td><input id="eXLq0cjorxs-Rr3uh3eAvKi-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 10-14 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 10-14 years (Specific), Female ]" /></td>
+			<td><input id="eXLq0cjorxs-X65JamO5tyb-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 10-14 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 10-14 years (Specific), Male ]" /></td>
+			<td><input id="eXLq0cjorxs-HUHnBK7RsPm-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 15-17 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 15-17 years (Specific), Female ]" /></td>
+			<td><input id="eXLq0cjorxs-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 15-17 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 15-17 years (Specific), Male ]" /></td>
+			<td><input id="eXLq0cjorxs-NAmjnJNHnFr-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 18-19 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 18-19 years (Specific), Female ]" /></td>
+			<td><input id="eXLq0cjorxs-KtEEbwUrY6H-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 18-19 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="eXLq0cjorxs" disabled="disabled" id="totaleXLq0cjorxs" name="total" readonly="readonly" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Already enrolled in the OVC program ]" /></th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Offered</th>
+			<td><input id="i78igmZZeh9-dcv8Lowu94w-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered &lt;1 year(Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="i78igmZZeh9-AwerOu6rx5q-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered &lt;1 year(Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="i78igmZZeh9-D2aMSzo7SEw-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 1-4 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 1-4 years (Specific), Female ]" /></td>
+			<td><input id="i78igmZZeh9-g2zP3yNwOOa-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 1-4 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 1-4 years (Specific), Male ]" /></td>
+			<td><input id="i78igmZZeh9-HIS0TcFAoo8-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 5-9 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 5-9 years (Specific), Female ]" /></td>
+			<td><input id="i78igmZZeh9-WTfu1bBSG12-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 5-9 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 5-9 years (Specific), Male ]" /></td>
+			<td><input id="i78igmZZeh9-Rr3uh3eAvKi-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 10-14 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 10-14 years (Specific), Female ]" /></td>
+			<td><input id="i78igmZZeh9-X65JamO5tyb-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 10-14 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 10-14 years (Specific), Male ]" /></td>
+			<td><input id="i78igmZZeh9-HUHnBK7RsPm-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 15-17 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 15-17 years (Specific), Female ]" /></td>
+			<td><input id="i78igmZZeh9-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 15-17 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 15-17 years (Specific), Male ]" /></td>
+			<td><input id="i78igmZZeh9-NAmjnJNHnFr-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 18-19 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 18-19 years (Specific), Female ]" /></td>
+			<td><input id="i78igmZZeh9-KtEEbwUrY6H-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 18-19 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="i78igmZZeh9" disabled="disabled" id="totali78igmZZeh9" name="total" readonly="readonly" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Offered ]" /></th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Enrolled</th>
+			<td><input id="WhNc9JhHOST-dcv8Lowu94w-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled &lt;1 year(Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="WhNc9JhHOST-AwerOu6rx5q-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled &lt;1 year(Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="WhNc9JhHOST-D2aMSzo7SEw-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 1-4 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 1-4 years (Specific), Female ]" /></td>
+			<td><input id="WhNc9JhHOST-g2zP3yNwOOa-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 1-4 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 1-4 years (Specific), Male ]" /></td>
+			<td><input id="WhNc9JhHOST-HIS0TcFAoo8-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 5-9 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 5-9 years (Specific), Female ]" /></td>
+			<td><input id="WhNc9JhHOST-WTfu1bBSG12-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 5-9 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 5-9 years (Specific), Male ]" /></td>
+			<td><input id="WhNc9JhHOST-Rr3uh3eAvKi-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 10-14 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 10-14 years (Specific), Female ]" /></td>
+			<td><input id="WhNc9JhHOST-X65JamO5tyb-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 10-14 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 10-14 years (Specific), Male ]" /></td>
+			<td><input id="WhNc9JhHOST-HUHnBK7RsPm-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 15-17 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 15-17 years (Specific), Female ]" /></td>
+			<td><input id="WhNc9JhHOST-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 15-17 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 15-17 years (Specific), Male ]" /></td>
+			<td><input id="WhNc9JhHOST-NAmjnJNHnFr-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 18-19 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 18-19 years (Specific), Female ]" /></td>
+			<td><input id="WhNc9JhHOST-KtEEbwUrY6H-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 18-19 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="WhNc9JhHOST" disabled="disabled" id="totalWhNc9JhHOST" name="total" readonly="readonly" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Enrolled ]" /></th>
+		</tr>
+		<tr>
+			<th style="text-align: left;">Refused enrollment</th>
+			<td><input id="z1n1x7kt521-dcv8Lowu94w-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment &lt;1 year(Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment &lt;1 year(Specific), Female ]" /></td>
+			<td><input id="z1n1x7kt521-AwerOu6rx5q-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment &lt;1 year(Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment &lt;1 year(Specific), Male ]" /></td>
+			<td><input id="z1n1x7kt521-D2aMSzo7SEw-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 1-4 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 1-4 years (Specific), Female ]" /></td>
+			<td><input id="z1n1x7kt521-g2zP3yNwOOa-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 1-4 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 1-4 years (Specific), Male ]" /></td>
+			<td><input id="z1n1x7kt521-HIS0TcFAoo8-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 5-9 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 5-9 years (Specific), Female ]" /></td>
+			<td><input id="z1n1x7kt521-WTfu1bBSG12-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 5-9 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 5-9 years (Specific), Male ]" /></td>
+			<td><input id="z1n1x7kt521-Rr3uh3eAvKi-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 10-14 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 10-14 years (Specific), Female ]" /></td>
+			<td><input id="z1n1x7kt521-X65JamO5tyb-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 10-14 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 10-14 years (Specific), Male ]" /></td>
+			<td><input id="z1n1x7kt521-HUHnBK7RsPm-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 15-17 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 15-17 years (Specific), Female ]" /></td>
+			<td><input id="z1n1x7kt521-Fe1ZE3jE3fp-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 15-17 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 15-17 years (Specific), Male ]" /></td>
+			<td><input id="z1n1x7kt521-NAmjnJNHnFr-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 18-19 years (Specific), Female" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 18-19 years (Specific), Female ]" /></td>
+			<td><input id="z1n1x7kt521-KtEEbwUrY6H-val" name="entryfield" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 18-19 years (Specific), Male" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment 18-19 years (Specific), Male ]" /></td>
+			<th><input dataelementid="z1n1x7kt521" disabled="disabled" id="totalz1n1x7kt521" name="total" readonly="readonly" title="Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment" value="[ Step 4g: How many of the total # of biological children and siblings identified with HIV in Step #4e were: : Refused enrollment ]" /></th>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+	'use strict';
+	(function() {
+		$('#tabs').tabs({collapsible : true});
+		$('.cde .cde-NONE').css("height","100%");
+        $('.Form_Section_Title').siblings('.Form_Section_body').hide();
+        $('.Summary').children('.Form_Section_body').show();
+        $('.Form_Section_Title').click(function(){
+             $(this).siblings('.Form_Section_body').toggle();
+             //alert("Hello! I am an alert box!!");
+        });
+	}());
+
+	//'use strict';
+	/**
+	*previouseData: Update values for the following
+	*@auther: Maritim
+	*/
+	
+	var getPrev ={};
+	
+	//getPrev.TxCurrCategoryOptions["ULVYtRIxS5m","Kzs4VE3B9vk"];
+	
+	getPrev.reCalculateDataelement = function(de){
+
+			var totalunput = $('#total' + de);
+			var sum = new Number();
+		
+			$( '[id^="' + de + '"]' ).each( function( index )
+			{
+				var val = $( this ).val();
+				
+				if ( val && dhis2.validation.isNumber( val ) )
+				{
+					sum += new Number( $( this ).val() );
+				}
+			} );
+			console.log(myTotal);
+			totalunput.prop("dataelementid", "");
+			totalunput.prop("readonly", false);
+			totalunput.val(sum);
+	}
+
+	getPrev.ProcessInToFromTransfer = function(fromVal,toValue, categoryOptionCombo){
+		var fromValCurrr = $('#' + fromVal +'-' + categoryOptionCombo + '-val').val();//Form Control Value
+		var toValueCurrr = $('#' + toValue +'-' + categoryOptionCombo + '-val').val();// To Control value
+		var strholder = toValue + "-" + categoryOptionCombo + '-val';
+		if(fromValCurrr != toValueCurrr){
+			var strholder = toValue + "-" + categoryOptionCombo + '-val';
+			$('#' + strholder).val(fromValCurrr);
+			saveVal(toValue,categoryOptionCombo,strholder,strholder);// This is e
+			$('#' + strholder).prop("disabled", true).css('background-color', '#cccccc').css('border', '1px solid #aaaaaa');
+		}
+		$('#' + strholder).prop("disabled", true).css('background-color', '#cccccc').css('border', '1px solid #aaaaaa');
+	}	
+	
+	
+dhis2.util.on( 'dhis2.de.event.dataValuesLoaded', function( event, ds ) {
+  var strAmpathdate = $( '#selectedPeriodId').val(); //201611,201612,201613
+
+  console.log('Todays date : ' + strAmpathdate);
+
+  var vuFacilityID = dhis2.de.currentOrganisationUnitId;
+  console.log('The OrgUnit : ' + vuFacilityID);
+//ULVYtRIxS5m
+//Make the API call to get data for dataelement  ULVYtRIxS5m
+//api/dataValues?de=ULVYtRIxS5m&pe=201301&ou=DiszpKrYNg8&co=Prlt0C1RF0s"
+
+console.log(document.location.origin);
+ var url = document.location.origin + "/amep/api/analytics?dimension=dx:ULVYtRIxS5m&dimension=pe:" + strAmpathdate + "&dimension=ou:" +  vuFacilityID + "&dimension=co&includeDeleted=true";
+ //let jsondata = {"characters":[]};
+ //let output = {"dataSet": "NTAnNMukGLC","period": strAmpathdate,"orgUnit": vuFacilityID,"dataValues":[]};
+ //let tmp;
+ //let json;
+ 
+$.get( url, function( data ) {
+  console.log( typeof data ); // string
+  //console.log( data); // HTML content of the jQuery.ajax page
+	$.each(data.rows, (index, item) => {
+		console.log(item);
+        var str1 = 'wvTl75hm9A5';
+        var str2 = str1.concat('-',item[1],'-val');
+        console.log(str2);
+		var curValue =  $('#' + str2).val();
+        var str1 = 'wvTl75hm9A5';
+        var str2 = str1.concat('-',item[1],'-val');
+		console.log(str2);
+		console.log(parseInt(item[4]));
+		console.log(parseInt(curValue));
+		if(parseInt(curValue) != parseInt(item[4])){
+			$('#' + str2).val(parseInt(item[4]));
+			saveVal('wvTl75hm9A5',item[1],str2,str2 );		
+		}
+
+        //console.log(str2);
+		$('#' + str2).prop("disabled", true).css('background-color', '#cccccc').css('border', '1px solid #aaaaaa');
+	});
+});
+
+ 
+} );
+
+dhis2.util.on(dhis2.de.event.dataValueSaved, function(event, ds, dv) {
+	 if(dv.de == 'xuJoK3XVfW1'){
+			//getPrev.ProcessInToFromTransfer(dv.de,'BODWOyeVz0H',dv.co); //MMD_TX_CURR
+	 }
+});
+;
+</script>
