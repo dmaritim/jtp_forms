@@ -1,0 +1,2762 @@
+<style type="text/css">
+  #chak_jtp_content {
+    width: 100%;
+    margin: 2px;
+    text-align: right;
+    overflow: scroll;
+  }
+  #tabs {
+    padding: 0px;
+    background: none;
+    border-width: 0px;
+  }
+  #tabs div {
+    width: 100%;
+    overflow: scroll;
+  }
+  #tabs .ui-tabs-nav {
+    padding-left: 0px;
+    background: transparent;
+    border-width: 0px 0px 1px 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+  }
+  #tabs .ui-tabs-panel {
+    background: #f5f3e5;
+    border-width: 0px 1px 1px 1px;
+  }
+  #tabs div table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #bbb;
+    /* width:100%; 	 */
+  }
+  #tabs div table th {
+    background: #f0f8ff;
+    font-size: 12px;
+  }
+  #tabs div table thead th {
+    text-align: center;
+    background-color: aqua;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0;
+  }
+  #tabs div table th {
+    border-top: 0.3px solid #ddd;
+    padding: 0;
+  }
+  #tabs div table td {
+    padding: 0;
+    margin: 0;
+  }
+  #tabs div table td input {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    max-width: 100px;
+    min-width: 35px;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+  #tabs div table th input {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    max-width: 100px;
+    min-width: 35px;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+  table th span {
+    display: inline-block;
+    margin: 0;
+  }
+  .highlight {
+    background: #ff0000 !important;
+  }
+  .Form_Section,
+  .Details,
+  .Form_Section_body {
+    overflow: visible !important;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+  }
+  .Form_Section_Title {
+    /* background-color: #4CAF50;  Green */
+    background-color: #00ffbf;
+    border: none;
+    padding: 5px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+  }
+  /* .Form_Section_Title:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  } */
+
+  /* arrow common style */
+  .arrow {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+  }
+
+  .arrow-top {
+    transform: rotate(-45deg);
+  }
+  .arrow-right {
+    transform: rotate(45deg);
+  }
+  .arrow-bottom {
+    transform: rotate(135deg);
+  }
+  .arrow-left {
+    transform: rotate(-135deg);
+  }
+  .arrow-top-narrow {
+    transform: rotate(-45deg) skew(-15deg, -15deg);
+  }
+  .arrow-top-wide {
+    transform: rotate(-45deg) skew(7deg, 7deg);
+  }
+  .arrow-top-left {
+    transform: rotate(-90deg) skew(-10deg, -10deg);
+  }
+  .arrow-top-right {
+    transform: rotate(0) skew(-10deg, -10deg);
+  }
+  .arrow-bottom-left {
+    transform: rotate(180deg) skew(-10deg, -10deg);
+  }
+  .arrow-bottom-right {
+    transform: rotate(90deg) skew(-10deg, -10deg);
+  }
+  .vericaltext {
+    writing-mode: vertical-lr;
+    -ms-writing-mode: tb-rl;
+    transform: rotate(180deg);
+  }
+  .sub-heading-row {
+    text-align: left !important;
+    background-color: lightskyblue !important;
+  }
+</style>
+<div id="chak_jtp_content">
+  <div id="tabs">
+    <div>
+      <table border="1" cellpadding="0" cellspacing="0" width="100%">
+        <thead>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              Cross-sectional monitoring
+            </th>
+            <th colspan="5" style="text-align: center">Female</th>
+            <th colspan="5" style="text-align: center">Male</th>
+            <th rowspan="2" style="text-align: center">Total</th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">JMW Monitoring&nbsp;</th>
+            <th style="text-align: center">&lt;1yr</th>
+            <th style="text-align: center">1-4yrs</th>
+            <th style="text-align: center">5-9yrs</th>
+            <th style="text-align: center">10-14yrs</th>
+            <th style="text-align: center">15-19yrs</th>
+            <th style="text-align: center">&lt;1yr</th>
+            <th style="text-align: center">1-4yrs</th>
+            <th style="text-align: center">5-9yrs</th>
+            <th style="text-align: center">10-14yrs</th>
+            <th style="text-align: center">15-19yrs</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. of unsuppressed CALHIV in the reporting month
+            </th>
+            <td>
+              <input
+                id="PrmgDafQ0Sq-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :1-No. of unsuppressed CALHIV in the reporting month &lt;1 year(Specific), Female"
+                value="[ JMW :1-No. of unsuppressed CALHIV in the reporting month &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="PrmgDafQ0Sq-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :1-No. of unsuppressed CALHIV in the reporting month 1-4 years (Specific), Female"
+                value="[ JMW :1-No. of unsuppressed CALHIV in the reporting month 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="PrmgDafQ0Sq-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :1-No. of unsuppressed CALHIV in the reporting month 5-9 years (Specific), Female"
+                value="[ JMW :1-No. of unsuppressed CALHIV in the reporting month 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="PrmgDafQ0Sq-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :1-No. of unsuppressed CALHIV in the reporting month 10-14 years (Specific), Female"
+                value="[ JMW :1-No. of unsuppressed CALHIV in the reporting month 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="PrmgDafQ0Sq-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :1-No. of unsuppressed CALHIV in the reporting month 15-19 years (Specific), Female"
+                value="[ JMW :1-No. of unsuppressed CALHIV in the reporting month 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="PrmgDafQ0Sq-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :1-No. of unsuppressed CALHIV in the reporting month &lt;1 year(Specific), Male"
+                value="[ JMW :1-No. of unsuppressed CALHIV in the reporting month &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="PrmgDafQ0Sq-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :1-No. of unsuppressed CALHIV in the reporting month 1-4 years (Specific), Male"
+                value="[ JMW :1-No. of unsuppressed CALHIV in the reporting month 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="PrmgDafQ0Sq-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :1-No. of unsuppressed CALHIV in the reporting month 5-9 years (Specific), Male"
+                value="[ JMW :1-No. of unsuppressed CALHIV in the reporting month 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="PrmgDafQ0Sq-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :1-No. of unsuppressed CALHIV in the reporting month 10-14 years (Specific), Male"
+                value="[ JMW :1-No. of unsuppressed CALHIV in the reporting month 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="PrmgDafQ0Sq-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :1-No. of unsuppressed CALHIV in the reporting month 15-19 years (Specific), Male"
+                value="[ JMW :1-No. of unsuppressed CALHIV in the reporting month 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="PrmgDafQ0Sq"
+                disabled="disabled"
+                id="totalPrmgDafQ0Sq"
+                name="total"
+                readonly="readonly"
+                title="JMW :1-No. of unsuppressed CALHIV in the reporting month"
+                value="[ JMW :1-No. of unsuppressed CALHIV in the reporting month ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              Cumulative no. of unsuppressed CALHIV&nbsp;
+            </th>
+            <td>
+              <input
+                id="u13DZ7niRS6-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :2-Cumulative no. of unsuppressed CALHIV &lt;1 year(Specific), Female"
+                value="[ JMW :2-Cumulative no. of unsuppressed CALHIV &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="u13DZ7niRS6-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :2-Cumulative no. of unsuppressed CALHIV 1-4 years (Specific), Female"
+                value="[ JMW :2-Cumulative no. of unsuppressed CALHIV 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="u13DZ7niRS6-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :2-Cumulative no. of unsuppressed CALHIV 5-9 years (Specific), Female"
+                value="[ JMW :2-Cumulative no. of unsuppressed CALHIV 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="u13DZ7niRS6-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :2-Cumulative no. of unsuppressed CALHIV 10-14 years (Specific), Female"
+                value="[ JMW :2-Cumulative no. of unsuppressed CALHIV 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="u13DZ7niRS6-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :2-Cumulative no. of unsuppressed CALHIV 15-19 years (Specific), Female"
+                value="[ JMW :2-Cumulative no. of unsuppressed CALHIV 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="u13DZ7niRS6-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :2-Cumulative no. of unsuppressed CALHIV &lt;1 year(Specific), Male"
+                value="[ JMW :2-Cumulative no. of unsuppressed CALHIV &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="u13DZ7niRS6-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :2-Cumulative no. of unsuppressed CALHIV 1-4 years (Specific), Male"
+                value="[ JMW :2-Cumulative no. of unsuppressed CALHIV 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="u13DZ7niRS6-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :2-Cumulative no. of unsuppressed CALHIV 5-9 years (Specific), Male"
+                value="[ JMW :2-Cumulative no. of unsuppressed CALHIV 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="u13DZ7niRS6-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :2-Cumulative no. of unsuppressed CALHIV 10-14 years (Specific), Male"
+                value="[ JMW :2-Cumulative no. of unsuppressed CALHIV 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="u13DZ7niRS6-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :2-Cumulative no. of unsuppressed CALHIV 15-19 years (Specific), Male"
+                value="[ JMW :2-Cumulative no. of unsuppressed CALHIV 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="u13DZ7niRS6"
+                disabled="disabled"
+                id="totalu13DZ7niRS6"
+                name="total"
+                readonly="readonly"
+                title="JMW :2-Cumulative no. of unsuppressed CALHIV"
+                value="[ JMW :2-Cumulative no. of unsuppressed CALHIV ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW)
+              in the reporting month
+            </th>
+            <td>
+              <input
+                id="oLYbLeDrusB-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month &lt;1 year(Specific), Female"
+                value="[ JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oLYbLeDrusB-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 1-4 years (Specific), Female"
+                value="[ JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oLYbLeDrusB-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 5-9 years (Specific), Female"
+                value="[ JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oLYbLeDrusB-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 10-14 years (Specific), Female"
+                value="[ JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oLYbLeDrusB-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 15-19 years (Specific), Female"
+                value="[ JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oLYbLeDrusB-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month &lt;1 year(Specific), Male"
+                value="[ JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oLYbLeDrusB-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 1-4 years (Specific), Male"
+                value="[ JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oLYbLeDrusB-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 5-9 years (Specific), Male"
+                value="[ JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oLYbLeDrusB-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 10-14 years (Specific), Male"
+                value="[ JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oLYbLeDrusB-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 15-19 years (Specific), Male"
+                value="[ JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="oLYbLeDrusB"
+                disabled="disabled"
+                id="totaloLYbLeDrusB"
+                name="total"
+                readonly="readonly"
+                title="JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month"
+                value="[ JMW :3-No. of unsuppressed CALHIVs newly enrolled in JMW (JMW_CALHIV_NEW) in the reporting month ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. of unsuppressed CALHIVs cumulatively enrolled in JMW
+              (JMW_CALHIV_ CURR)
+            </th>
+            <td>
+              <input
+                id="uy5RGnpYlYK-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) &lt;1 year(Specific), Female"
+                value="[ JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="uy5RGnpYlYK-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 1-4 years (Specific), Female"
+                value="[ JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="uy5RGnpYlYK-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 5-9 years (Specific), Female"
+                value="[ JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="uy5RGnpYlYK-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 10-14 years (Specific), Female"
+                value="[ JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="uy5RGnpYlYK-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 15-19 years (Specific), Female"
+                value="[ JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="uy5RGnpYlYK-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) &lt;1 year(Specific), Male"
+                value="[ JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="uy5RGnpYlYK-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 1-4 years (Specific), Male"
+                value="[ JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="uy5RGnpYlYK-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 5-9 years (Specific), Male"
+                value="[ JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="uy5RGnpYlYK-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 10-14 years (Specific), Male"
+                value="[ JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="uy5RGnpYlYK-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 15-19 years (Specific), Male"
+                value="[ JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="uy5RGnpYlYK"
+                disabled="disabled"
+                id="totaluy5RGnpYlYK"
+                name="total"
+                readonly="readonly"
+                title="JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR)"
+                value="[ JMW :4-No. of unsuppressed CALHIVs cumulatively enrolled in JMW (JMW_CALHIV_ CURR) ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. of unsuppressed CALHIV currently enrolled in JMW
+            </th>
+            <td>
+              <input
+                id="M9RqshmNgoz-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW &lt;1 year(Specific), Female"
+                value="[ JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="M9RqshmNgoz-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 1-4 years (Specific), Female"
+                value="[ JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="M9RqshmNgoz-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 5-9 years (Specific), Female"
+                value="[ JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="M9RqshmNgoz-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 10-14 years (Specific), Female"
+                value="[ JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="M9RqshmNgoz-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 15-19 years (Specific), Female"
+                value="[ JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="M9RqshmNgoz-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW &lt;1 year(Specific), Male"
+                value="[ JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="M9RqshmNgoz-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 1-4 years (Specific), Male"
+                value="[ JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="M9RqshmNgoz-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 5-9 years (Specific), Male"
+                value="[ JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="M9RqshmNgoz-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 10-14 years (Specific), Male"
+                value="[ JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="M9RqshmNgoz-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 15-19 years (Specific), Male"
+                value="[ JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="M9RqshmNgoz"
+                disabled="disabled"
+                id="totalM9RqshmNgoz"
+                name="total"
+                readonly="readonly"
+                title="JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW"
+                value="[ JMW :5-No. of unsuppressed CALHIV currently enrolled in JMW ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis
+              (baseline assessment/characterization) done
+            </th>
+            <td>
+              <input
+                id="qZXIZxhfwx1-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done &lt;1 year(Specific), Female"
+                value="[ JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="qZXIZxhfwx1-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 1-4 years (Specific), Female"
+                value="[ JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="qZXIZxhfwx1-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 5-9 years (Specific), Female"
+                value="[ JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="qZXIZxhfwx1-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 10-14 years (Specific), Female"
+                value="[ JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="qZXIZxhfwx1-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 15-19 years (Specific), Female"
+                value="[ JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="qZXIZxhfwx1-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done &lt;1 year(Specific), Male"
+                value="[ JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="qZXIZxhfwx1-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 1-4 years (Specific), Male"
+                value="[ JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="qZXIZxhfwx1-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 5-9 years (Specific), Male"
+                value="[ JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="qZXIZxhfwx1-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 10-14 years (Specific), Male"
+                value="[ JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="qZXIZxhfwx1-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 15-19 years (Specific), Male"
+                value="[ JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="qZXIZxhfwx1"
+                disabled="disabled"
+                id="totalqZXIZxhfwx1"
+                name="total"
+                readonly="readonly"
+                title="JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done"
+                value="[ JMW :6-No. of newly enrolled unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              Cumulative no. of unsuppressed CALHIV with Root Cause Analysis
+              (baseline assessment/characterization) done
+            </th>
+            <td>
+              <input
+                id="ROsxjHlGqZf-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done &lt;1 year(Specific), Female"
+                value="[ JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ROsxjHlGqZf-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 1-4 years (Specific), Female"
+                value="[ JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ROsxjHlGqZf-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 5-9 years (Specific), Female"
+                value="[ JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ROsxjHlGqZf-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 10-14 years (Specific), Female"
+                value="[ JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ROsxjHlGqZf-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 15-19 years (Specific), Female"
+                value="[ JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ROsxjHlGqZf-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done &lt;1 year(Specific), Male"
+                value="[ JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ROsxjHlGqZf-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 1-4 years (Specific), Male"
+                value="[ JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ROsxjHlGqZf-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 5-9 years (Specific), Male"
+                value="[ JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ROsxjHlGqZf-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 10-14 years (Specific), Male"
+                value="[ JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ROsxjHlGqZf-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 15-19 years (Specific), Male"
+                value="[ JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="ROsxjHlGqZf"
+                disabled="disabled"
+                id="totalROsxjHlGqZf"
+                name="total"
+                readonly="readonly"
+                title="JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done"
+                value="[ JMW :7-Cumulative no. of unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. of currently active unsuppressed CALHIV with Root Cause
+              Analysis (baseline assessment/characterization) done
+            </th>
+            <td>
+              <input
+                id="D8QJLFKOyGa-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done &lt;1 year(Specific), Female"
+                value="[ JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="D8QJLFKOyGa-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 1-4 years (Specific), Female"
+                value="[ JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="D8QJLFKOyGa-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 5-9 years (Specific), Female"
+                value="[ JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="D8QJLFKOyGa-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 10-14 years (Specific), Female"
+                value="[ JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="D8QJLFKOyGa-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 15-19 years (Specific), Female"
+                value="[ JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="D8QJLFKOyGa-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done &lt;1 year(Specific), Male"
+                value="[ JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="D8QJLFKOyGa-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 1-4 years (Specific), Male"
+                value="[ JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="D8QJLFKOyGa-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 5-9 years (Specific), Male"
+                value="[ JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="D8QJLFKOyGa-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 10-14 years (Specific), Male"
+                value="[ JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="D8QJLFKOyGa-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 15-19 years (Specific), Male"
+                value="[ JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="D8QJLFKOyGa"
+                disabled="disabled"
+                id="totalD8QJLFKOyGa"
+                name="total"
+                readonly="readonly"
+                title="JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done"
+                value="[ JMW :8-No. of currently active unsuppressed CALHIV with Root Cause Analysis (baseline assessment/characterization) done ]"
+              />
+            </th>
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              Cohort/Longitudinal monitoring (after 4 Months)
+            </th>
+            <th colspan="5" style="text-align: center">Female</th>
+            <th colspan="5" style="text-align: center">Male</th>
+            <th rowspan="2" style="text-align: center">Total</th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">JMW Monitoring&nbsp;</th>
+            <th style="text-align: center">&lt;1yr</th>
+            <th style="text-align: center">1-4yrs</th>
+            <th style="text-align: center">5-9yrs</th>
+            <th style="text-align: center">10-14yrs</th>
+            <th style="text-align: center">15-19yrs</th>
+            <th style="text-align: center">&lt;1yr</th>
+            <th style="text-align: center">1-4yrs</th>
+            <th style="text-align: center">5-9yrs</th>
+            <th style="text-align: center">10-14yrs</th>
+            <th style="text-align: center">15-19yrs</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. of CALHIV enrolled in the cohort month
+            </th>
+            <td>
+              <input
+                id="HvS91hIZz1C-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :9-No. of CALHIV enrolled in the cohort month &lt;1 year(Specific), Female"
+                value="[ JMW :9-No. of CALHIV enrolled in the cohort month &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HvS91hIZz1C-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :9-No. of CALHIV enrolled in the cohort month 1-4 years (Specific), Female"
+                value="[ JMW :9-No. of CALHIV enrolled in the cohort month 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HvS91hIZz1C-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :9-No. of CALHIV enrolled in the cohort month 5-9 years (Specific), Female"
+                value="[ JMW :9-No. of CALHIV enrolled in the cohort month 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HvS91hIZz1C-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :9-No. of CALHIV enrolled in the cohort month 10-14 years (Specific), Female"
+                value="[ JMW :9-No. of CALHIV enrolled in the cohort month 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HvS91hIZz1C-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :9-No. of CALHIV enrolled in the cohort month 15-19 years (Specific), Female"
+                value="[ JMW :9-No. of CALHIV enrolled in the cohort month 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HvS91hIZz1C-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :9-No. of CALHIV enrolled in the cohort month &lt;1 year(Specific), Male"
+                value="[ JMW :9-No. of CALHIV enrolled in the cohort month &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HvS91hIZz1C-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :9-No. of CALHIV enrolled in the cohort month 1-4 years (Specific), Male"
+                value="[ JMW :9-No. of CALHIV enrolled in the cohort month 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HvS91hIZz1C-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :9-No. of CALHIV enrolled in the cohort month 5-9 years (Specific), Male"
+                value="[ JMW :9-No. of CALHIV enrolled in the cohort month 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HvS91hIZz1C-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :9-No. of CALHIV enrolled in the cohort month 10-14 years (Specific), Male"
+                value="[ JMW :9-No. of CALHIV enrolled in the cohort month 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HvS91hIZz1C-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :9-No. of CALHIV enrolled in the cohort month 15-19 years (Specific), Male"
+                value="[ JMW :9-No. of CALHIV enrolled in the cohort month 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="HvS91hIZz1C"
+                disabled="disabled"
+                id="totalHvS91hIZz1C"
+                name="total"
+                readonly="readonly"
+                title="JMW :9-No. of CALHIV enrolled in the cohort month"
+                value="[ JMW :9-No. of CALHIV enrolled in the cohort month ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">Transfer-out</th>
+            <td>
+              <input
+                id="QcXE9fepQux-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :--Transfer-out &lt;1 year(Specific), Female"
+                value="[ JMW :--Transfer-out &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="QcXE9fepQux-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :--Transfer-out 1-4 years (Specific), Female"
+                value="[ JMW :--Transfer-out 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="QcXE9fepQux-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :--Transfer-out 5-9 years (Specific), Female"
+                value="[ JMW :--Transfer-out 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="QcXE9fepQux-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :--Transfer-out 10-14 years (Specific), Female"
+                value="[ JMW :--Transfer-out 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="QcXE9fepQux-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :--Transfer-out 15-19 years (Specific), Female"
+                value="[ JMW :--Transfer-out 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="QcXE9fepQux-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :--Transfer-out &lt;1 year(Specific), Male"
+                value="[ JMW :--Transfer-out &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="QcXE9fepQux-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :--Transfer-out 1-4 years (Specific), Male"
+                value="[ JMW :--Transfer-out 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="QcXE9fepQux-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :--Transfer-out 5-9 years (Specific), Male"
+                value="[ JMW :--Transfer-out 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="QcXE9fepQux-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :--Transfer-out 10-14 years (Specific), Male"
+                value="[ JMW :--Transfer-out 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="QcXE9fepQux-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :--Transfer-out 15-19 years (Specific), Male"
+                value="[ JMW :--Transfer-out 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="QcXE9fepQux"
+                disabled="disabled"
+                id="totalQcXE9fepQux"
+                name="total"
+                readonly="readonly"
+                title="JMW :--Transfer-out"
+                value="[ JMW :--Transfer-out ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">Died</th>
+            <td>
+              <input
+                id="FwF2FXYGXwT-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :--Died &lt;1 year(Specific), Female"
+                value="[ JMW :--Died &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FwF2FXYGXwT-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :--Died 1-4 years (Specific), Female"
+                value="[ JMW :--Died 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FwF2FXYGXwT-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :--Died 5-9 years (Specific), Female"
+                value="[ JMW :--Died 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FwF2FXYGXwT-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :--Died 10-14 years (Specific), Female"
+                value="[ JMW :--Died 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FwF2FXYGXwT-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :--Died 15-19 years (Specific), Female"
+                value="[ JMW :--Died 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FwF2FXYGXwT-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :--Died &lt;1 year(Specific), Male"
+                value="[ JMW :--Died &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FwF2FXYGXwT-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :--Died 1-4 years (Specific), Male"
+                value="[ JMW :--Died 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FwF2FXYGXwT-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :--Died 5-9 years (Specific), Male"
+                value="[ JMW :--Died 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FwF2FXYGXwT-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :--Died 10-14 years (Specific), Male"
+                value="[ JMW :--Died 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FwF2FXYGXwT-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :--Died 15-19 years (Specific), Male"
+                value="[ JMW :--Died 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="FwF2FXYGXwT"
+                disabled="disabled"
+                id="totalFwF2FXYGXwT"
+                name="total"
+                readonly="readonly"
+                title="JMW :--Died"
+                value="[ JMW :--Died ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">JMW_Lost to follow up</th>
+            <td>
+              <input
+                id="oa3XAtDrIoR-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :--JMW_Lost to follow up &lt;1 year(Specific), Female"
+                value="[ JMW :--JMW_Lost to follow up &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oa3XAtDrIoR-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :--JMW_Lost to follow up 1-4 years (Specific), Female"
+                value="[ JMW :--JMW_Lost to follow up 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oa3XAtDrIoR-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :--JMW_Lost to follow up 5-9 years (Specific), Female"
+                value="[ JMW :--JMW_Lost to follow up 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oa3XAtDrIoR-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :--JMW_Lost to follow up 10-14 years (Specific), Female"
+                value="[ JMW :--JMW_Lost to follow up 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oa3XAtDrIoR-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :--JMW_Lost to follow up 15-19 years (Specific), Female"
+                value="[ JMW :--JMW_Lost to follow up 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oa3XAtDrIoR-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :--JMW_Lost to follow up &lt;1 year(Specific), Male"
+                value="[ JMW :--JMW_Lost to follow up &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oa3XAtDrIoR-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :--JMW_Lost to follow up 1-4 years (Specific), Male"
+                value="[ JMW :--JMW_Lost to follow up 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oa3XAtDrIoR-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :--JMW_Lost to follow up 5-9 years (Specific), Male"
+                value="[ JMW :--JMW_Lost to follow up 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oa3XAtDrIoR-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :--JMW_Lost to follow up 10-14 years (Specific), Male"
+                value="[ JMW :--JMW_Lost to follow up 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="oa3XAtDrIoR-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :--JMW_Lost to follow up 15-19 years (Specific), Male"
+                value="[ JMW :--JMW_Lost to follow up 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="oa3XAtDrIoR"
+                disabled="disabled"
+                id="totaloa3XAtDrIoR"
+                name="total"
+                readonly="readonly"
+                title="JMW :--JMW_Lost to follow up"
+                value="[ JMW :--JMW_Lost to follow up ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">Transfer-in</th>
+            <td>
+              <input
+                id="FYKOqY6QphE-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :--Transfer-in &lt;1 year(Specific), Female"
+                value="[ JMW :--Transfer-in &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FYKOqY6QphE-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :--Transfer-in 1-4 years (Specific), Female"
+                value="[ JMW :--Transfer-in 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FYKOqY6QphE-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :--Transfer-in 5-9 years (Specific), Female"
+                value="[ JMW :--Transfer-in 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FYKOqY6QphE-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :--Transfer-in 10-14 years (Specific), Female"
+                value="[ JMW :--Transfer-in 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FYKOqY6QphE-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :--Transfer-in 15-19 years (Specific), Female"
+                value="[ JMW :--Transfer-in 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FYKOqY6QphE-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :--Transfer-in &lt;1 year(Specific), Male"
+                value="[ JMW :--Transfer-in &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FYKOqY6QphE-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :--Transfer-in 1-4 years (Specific), Male"
+                value="[ JMW :--Transfer-in 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FYKOqY6QphE-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :--Transfer-in 5-9 years (Specific), Male"
+                value="[ JMW :--Transfer-in 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FYKOqY6QphE-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :--Transfer-in 10-14 years (Specific), Male"
+                value="[ JMW :--Transfer-in 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FYKOqY6QphE-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :--Transfer-in 15-19 years (Specific), Male"
+                value="[ JMW :--Transfer-in 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="FYKOqY6QphE"
+                disabled="disabled"
+                id="totalFYKOqY6QphE"
+                name="total"
+                readonly="readonly"
+                title="JMW :--Transfer-in"
+                value="[ JMW :--Transfer-in ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. of unsuppressed CALHIV completing prescribed priority
+              interventions to address causes of unsuppression within 3 months
+            </th>
+            <td>
+              <input
+                id="wWR1M0rYwQg-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months &lt;1 year(Specific), Female"
+                value="[ JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wWR1M0rYwQg-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 1-4 years (Specific), Female"
+                value="[ JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wWR1M0rYwQg-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 5-9 years (Specific), Female"
+                value="[ JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wWR1M0rYwQg-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 10-14 years (Specific), Female"
+                value="[ JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wWR1M0rYwQg-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 15-19 years (Specific), Female"
+                value="[ JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wWR1M0rYwQg-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months &lt;1 year(Specific), Male"
+                value="[ JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wWR1M0rYwQg-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 1-4 years (Specific), Male"
+                value="[ JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wWR1M0rYwQg-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 5-9 years (Specific), Male"
+                value="[ JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wWR1M0rYwQg-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 10-14 years (Specific), Male"
+                value="[ JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="wWR1M0rYwQg-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 15-19 years (Specific), Male"
+                value="[ JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="wWR1M0rYwQg"
+                disabled="disabled"
+                id="totalwWR1M0rYwQg"
+                name="total"
+                readonly="readonly"
+                title="JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months"
+                value="[ JMW :10-No. of unsuppressed CALHIV completing prescribed priority interventions to address causes of unsuppression within 3 months ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. of unsuppressed CALHIV with satisfactory adherence after 3
+              months of EAC sessions
+            </th>
+            <td>
+              <input
+                id="r2VQITISZw7-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions &lt;1 year(Specific), Female"
+                value="[ JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="r2VQITISZw7-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 1-4 years (Specific), Female"
+                value="[ JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="r2VQITISZw7-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 5-9 years (Specific), Female"
+                value="[ JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="r2VQITISZw7-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 10-14 years (Specific), Female"
+                value="[ JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="r2VQITISZw7-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 15-19 years (Specific), Female"
+                value="[ JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="r2VQITISZw7-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions &lt;1 year(Specific), Male"
+                value="[ JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="r2VQITISZw7-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 1-4 years (Specific), Male"
+                value="[ JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="r2VQITISZw7-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 5-9 years (Specific), Male"
+                value="[ JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="r2VQITISZw7-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 10-14 years (Specific), Male"
+                value="[ JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="r2VQITISZw7-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 15-19 years (Specific), Male"
+                value="[ JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="r2VQITISZw7"
+                disabled="disabled"
+                id="totalr2VQITISZw7"
+                name="total"
+                readonly="readonly"
+                title="JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions"
+                value="[ JMW :11-No. of unsuppressed CALHIV with satisfactory adherence after 3 months of EAC sessions ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. of unsuppressed CALHIV with repeat viral load done within the
+              4 months
+            </th>
+            <td>
+              <input
+                id="GmPmVddXBYH-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months &lt;1 year(Specific), Female"
+                value="[ JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="GmPmVddXBYH-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 1-4 years (Specific), Female"
+                value="[ JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="GmPmVddXBYH-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 5-9 years (Specific), Female"
+                value="[ JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="GmPmVddXBYH-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 10-14 years (Specific), Female"
+                value="[ JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="GmPmVddXBYH-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 15-19 years (Specific), Female"
+                value="[ JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="GmPmVddXBYH-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months &lt;1 year(Specific), Male"
+                value="[ JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="GmPmVddXBYH-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 1-4 years (Specific), Male"
+                value="[ JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="GmPmVddXBYH-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 5-9 years (Specific), Male"
+                value="[ JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="GmPmVddXBYH-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 10-14 years (Specific), Male"
+                value="[ JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="GmPmVddXBYH-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 15-19 years (Specific), Male"
+                value="[ JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="GmPmVddXBYH"
+                disabled="disabled"
+                id="totalGmPmVddXBYH"
+                name="total"
+                readonly="readonly"
+                title="JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months"
+                value="[ JMW :12a-No. of unsuppressed CALHIV with repeat viral load done within the 4 months ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. of unsuppressed CALHIV with repeat Viral load test result
+              within the 4 months
+            </th>
+            <td>
+              <input
+                id="FRnjDYOnGee-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months &lt;1 year(Specific), Female"
+                value="[ JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FRnjDYOnGee-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 1-4 years (Specific), Female"
+                value="[ JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FRnjDYOnGee-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 5-9 years (Specific), Female"
+                value="[ JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FRnjDYOnGee-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 10-14 years (Specific), Female"
+                value="[ JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FRnjDYOnGee-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 15-19 years (Specific), Female"
+                value="[ JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FRnjDYOnGee-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months &lt;1 year(Specific), Male"
+                value="[ JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FRnjDYOnGee-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 1-4 years (Specific), Male"
+                value="[ JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FRnjDYOnGee-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 5-9 years (Specific), Male"
+                value="[ JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FRnjDYOnGee-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 10-14 years (Specific), Male"
+                value="[ JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="FRnjDYOnGee-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 15-19 years (Specific), Male"
+                value="[ JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="FRnjDYOnGee"
+                disabled="disabled"
+                id="totalFRnjDYOnGee"
+                name="total"
+                readonly="readonly"
+                title="JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months"
+                value="[ JMW :12b-No. of unsuppressed CALHIV with repeat Viral load test result within the 4 months ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. of CALHV suppressed after repeat VL within the 4 months
+            </th>
+            <td>
+              <input
+                id="l9F2iTQsBik-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months &lt;1 year(Specific), Female"
+                value="[ JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="l9F2iTQsBik-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 1-4 years (Specific), Female"
+                value="[ JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="l9F2iTQsBik-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 5-9 years (Specific), Female"
+                value="[ JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="l9F2iTQsBik-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 10-14 years (Specific), Female"
+                value="[ JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="l9F2iTQsBik-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 15-19 years (Specific), Female"
+                value="[ JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="l9F2iTQsBik-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months &lt;1 year(Specific), Male"
+                value="[ JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="l9F2iTQsBik-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 1-4 years (Specific), Male"
+                value="[ JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="l9F2iTQsBik-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 5-9 years (Specific), Male"
+                value="[ JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="l9F2iTQsBik-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 10-14 years (Specific), Male"
+                value="[ JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="l9F2iTQsBik-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 15-19 years (Specific), Male"
+                value="[ JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="l9F2iTQsBik"
+                disabled="disabled"
+                id="totall9F2iTQsBik"
+                name="total"
+                readonly="readonly"
+                title="JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months"
+                value="[ JMW :12c-No. of CALHV suppressed after repeat VL within the 4 months ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. with repeat VL unsuppressed within the 4 months
+            </th>
+            <td>
+              <input
+                id="ovAXQVOQ0Qs-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :12d-No. with repeat VL unsuppressed within the 4 months &lt;1 year(Specific), Female"
+                value="[ JMW :12d-No. with repeat VL unsuppressed within the 4 months &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ovAXQVOQ0Qs-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :12d-No. with repeat VL unsuppressed within the 4 months 1-4 years (Specific), Female"
+                value="[ JMW :12d-No. with repeat VL unsuppressed within the 4 months 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ovAXQVOQ0Qs-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :12d-No. with repeat VL unsuppressed within the 4 months 5-9 years (Specific), Female"
+                value="[ JMW :12d-No. with repeat VL unsuppressed within the 4 months 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ovAXQVOQ0Qs-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :12d-No. with repeat VL unsuppressed within the 4 months 10-14 years (Specific), Female"
+                value="[ JMW :12d-No. with repeat VL unsuppressed within the 4 months 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ovAXQVOQ0Qs-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :12d-No. with repeat VL unsuppressed within the 4 months 15-19 years (Specific), Female"
+                value="[ JMW :12d-No. with repeat VL unsuppressed within the 4 months 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ovAXQVOQ0Qs-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :12d-No. with repeat VL unsuppressed within the 4 months &lt;1 year(Specific), Male"
+                value="[ JMW :12d-No. with repeat VL unsuppressed within the 4 months &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ovAXQVOQ0Qs-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :12d-No. with repeat VL unsuppressed within the 4 months 1-4 years (Specific), Male"
+                value="[ JMW :12d-No. with repeat VL unsuppressed within the 4 months 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ovAXQVOQ0Qs-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :12d-No. with repeat VL unsuppressed within the 4 months 5-9 years (Specific), Male"
+                value="[ JMW :12d-No. with repeat VL unsuppressed within the 4 months 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ovAXQVOQ0Qs-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :12d-No. with repeat VL unsuppressed within the 4 months 10-14 years (Specific), Male"
+                value="[ JMW :12d-No. with repeat VL unsuppressed within the 4 months 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="ovAXQVOQ0Qs-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :12d-No. with repeat VL unsuppressed within the 4 months 15-19 years (Specific), Male"
+                value="[ JMW :12d-No. with repeat VL unsuppressed within the 4 months 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="ovAXQVOQ0Qs"
+                disabled="disabled"
+                id="totalovAXQVOQ0Qs"
+                name="total"
+                readonly="readonly"
+                title="JMW :12d-No. with repeat VL unsuppressed within the 4 months"
+                value="[ JMW :12d-No. with repeat VL unsuppressed within the 4 months ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">
+              No. of CALHIV unsuppressed (VL &ge;1000 copies/mL) switched&nbsp;
+              to higher ART Regimen (Disaggregated by 2nd and 3rd line)
+            </th>
+            <td>
+              <input
+                id="HCrHeLdzrgt-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) &lt;1 year(Specific), Female"
+                value="[ JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HCrHeLdzrgt-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 1-4 years (Specific), Female"
+                value="[ JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HCrHeLdzrgt-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 5-9 years (Specific), Female"
+                value="[ JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HCrHeLdzrgt-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 10-14 years (Specific), Female"
+                value="[ JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HCrHeLdzrgt-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 15-19 years (Specific), Female"
+                value="[ JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HCrHeLdzrgt-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) &lt;1 year(Specific), Male"
+                value="[ JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HCrHeLdzrgt-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 1-4 years (Specific), Male"
+                value="[ JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HCrHeLdzrgt-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 5-9 years (Specific), Male"
+                value="[ JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HCrHeLdzrgt-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 10-14 years (Specific), Male"
+                value="[ JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="HCrHeLdzrgt-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 15-19 years (Specific), Male"
+                value="[ JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="HCrHeLdzrgt"
+                disabled="disabled"
+                id="totalHCrHeLdzrgt"
+                name="total"
+                readonly="readonly"
+                title="JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line)"
+                value="[ JMW :12e-No. of CALHIV unsuppressed (VL ?1000 copies/mL) switched� to higher ART Regimen (Disaggregated by 2nd and 3rd line) ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">Second-line regimen</th>
+            <td>
+              <input
+                id="OuMOiruqFcq-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :12f-Second-line regimen &lt;1 year(Specific), Female"
+                value="[ JMW :12f-Second-line regimen &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="OuMOiruqFcq-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :12f-Second-line regimen 1-4 years (Specific), Female"
+                value="[ JMW :12f-Second-line regimen 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="OuMOiruqFcq-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :12f-Second-line regimen 5-9 years (Specific), Female"
+                value="[ JMW :12f-Second-line regimen 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="OuMOiruqFcq-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :12f-Second-line regimen 10-14 years (Specific), Female"
+                value="[ JMW :12f-Second-line regimen 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="OuMOiruqFcq-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :12f-Second-line regimen 15-19 years (Specific), Female"
+                value="[ JMW :12f-Second-line regimen 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="OuMOiruqFcq-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :12f-Second-line regimen &lt;1 year(Specific), Male"
+                value="[ JMW :12f-Second-line regimen &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="OuMOiruqFcq-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :12f-Second-line regimen 1-4 years (Specific), Male"
+                value="[ JMW :12f-Second-line regimen 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="OuMOiruqFcq-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :12f-Second-line regimen 5-9 years (Specific), Male"
+                value="[ JMW :12f-Second-line regimen 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="OuMOiruqFcq-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :12f-Second-line regimen 10-14 years (Specific), Male"
+                value="[ JMW :12f-Second-line regimen 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="OuMOiruqFcq-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :12f-Second-line regimen 15-19 years (Specific), Male"
+                value="[ JMW :12f-Second-line regimen 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="OuMOiruqFcq"
+                disabled="disabled"
+                id="totalOuMOiruqFcq"
+                name="total"
+                readonly="readonly"
+                title="JMW :12f-Second-line regimen"
+                value="[ JMW :12f-Second-line regimen ]"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">Third-line regimen</th>
+            <td>
+              <input
+                id="Firyp9i6SYo-dcv8Lowu94w-val"
+                name="entryfield"
+                title="JMW :12g-Third-line regimen &lt;1 year(Specific), Female"
+                value="[ JMW :12g-Third-line regimen &lt;1 year(Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="Firyp9i6SYo-D2aMSzo7SEw-val"
+                name="entryfield"
+                title="JMW :12g-Third-line regimen 1-4 years (Specific), Female"
+                value="[ JMW :12g-Third-line regimen 1-4 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="Firyp9i6SYo-HIS0TcFAoo8-val"
+                name="entryfield"
+                title="JMW :12g-Third-line regimen 5-9 years (Specific), Female"
+                value="[ JMW :12g-Third-line regimen 5-9 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="Firyp9i6SYo-Rr3uh3eAvKi-val"
+                name="entryfield"
+                title="JMW :12g-Third-line regimen 10-14 years (Specific), Female"
+                value="[ JMW :12g-Third-line regimen 10-14 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="Firyp9i6SYo-DYDpnZWu1XK-val"
+                name="entryfield"
+                title="JMW :12g-Third-line regimen 15-19 years (Specific), Female"
+                value="[ JMW :12g-Third-line regimen 15-19 years (Specific), Female ]"
+              />
+            </td>
+            <td>
+              <input
+                id="Firyp9i6SYo-AwerOu6rx5q-val"
+                name="entryfield"
+                title="JMW :12g-Third-line regimen &lt;1 year(Specific), Male"
+                value="[ JMW :12g-Third-line regimen &lt;1 year(Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="Firyp9i6SYo-g2zP3yNwOOa-val"
+                name="entryfield"
+                title="JMW :12g-Third-line regimen 1-4 years (Specific), Male"
+                value="[ JMW :12g-Third-line regimen 1-4 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="Firyp9i6SYo-WTfu1bBSG12-val"
+                name="entryfield"
+                title="JMW :12g-Third-line regimen 5-9 years (Specific), Male"
+                value="[ JMW :12g-Third-line regimen 5-9 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="Firyp9i6SYo-X65JamO5tyb-val"
+                name="entryfield"
+                title="JMW :12g-Third-line regimen 10-14 years (Specific), Male"
+                value="[ JMW :12g-Third-line regimen 10-14 years (Specific), Male ]"
+              />
+            </td>
+            <td>
+              <input
+                id="Firyp9i6SYo-hKHprPKwjL6-val"
+                name="entryfield"
+                title="JMW :12g-Third-line regimen 15-19 years (Specific), Male"
+                value="[ JMW :12g-Third-line regimen 15-19 years (Specific), Male ]"
+              />
+            </td>
+            <th style="text-align: center">
+              <input
+                dataelementid="Firyp9i6SYo"
+                disabled="disabled"
+                id="totalFiryp9i6SYo"
+                name="total"
+                readonly="readonly"
+                title="JMW :12g-Third-line regimen"
+                value="[ JMW :12g-Third-line regimen ]"
+              />
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  //'use strict';
+  /**
+   *previouseData: Update values for the following
+   *@auther: Maritim
+   */
+
+  var getPrev = {};
+
+  //getPrev.TxCurrCategoryOptions["ULVYtRIxS5m","Kzs4VE3B9vk"];
+
+  getPrev.reCalculateDataelement = function (de) {
+    var totalunput = $("#total" + de);
+    var sum = new Number();
+
+    $('[id^="' + de + '"]').each(function (index) {
+      var val = $(this).val();
+
+      if (val && dhis2.validation.isNumber(val)) {
+        sum += new Number($(this).val());
+      }
+    });
+    console.log(myTotal);
+    totalunput.prop("dataelementid", "");
+    totalunput.prop("readonly", false);
+    totalunput.val(sum);
+  };
+
+  getPrev.ProcessInToFromTransfer = function (
+    fromVal,
+    toValue,
+    categoryOptionCombo
+  ) {
+    var fromValCurrr = $(
+      "#" + fromVal + "-" + categoryOptionCombo + "-val"
+    ).val(); //Form Control Value
+    var toValueCurrr = $(
+      "#" + toValue + "-" + categoryOptionCombo + "-val"
+    ).val(); // To Control value
+    var strholder = toValue + "-" + categoryOptionCombo + "-val";
+    if (fromValCurrr != toValueCurrr) {
+      var strholder = toValue + "-" + categoryOptionCombo + "-val";
+      $("#" + strholder).val(fromValCurrr);
+      saveVal(toValue, categoryOptionCombo, strholder, strholder); // This is e
+      $("#" + strholder)
+        .prop("disabled", true)
+        .css("background-color", "#cccccc")
+        .css("border", "1px solid #aaaaaa");
+    }
+    $("#" + strholder)
+      .prop("disabled", true)
+      .css("background-color", "#cccccc")
+      .css("border", "1px solid #aaaaaa");
+  };
+
+  jQuery(document).ready(function () {
+    jQuery("#tabs").tabs({ collapsible: true });
+    jQuery(".cde .cde-NONE").css("height", "100%");
+  });
+
+  dhis2.util.on("dhis2.de.event.dataValuesLoaded", function (event, ds) {
+    var strAmpathdate = $("#selectedPeriodId").val(); //201611,201612,201613
+    console.log(strAmpathdate);
+    var yr = parseInt(strAmpathdate.substr(0, 4));
+    var month = parseInt(strAmpathdate.substr(4, 6));
+
+    console.log("The cur year : " + yr);
+    console.log("The cur month : " + month);
+    if (month == 1) {
+      yr = yr - 1;
+      month = 12;
+    } else {
+      month = month - 1;
+    }
+    console.log("The prev year : " + yr);
+    console.log("The prev month : " + month);
+    var prevPeriod = yr + ("0" + month).slice(-2);
+    console.log("The prev period : " + prevPeriod);
+    var vuFacilityID = dhis2.de.currentOrganisationUnitId;
+    console.log("The OrgUnit : " + vuFacilityID);
+    //ULVYtRIxS5m
+    //Make the API call to get data for dataelement  ULVYtRIxS5m
+    //api/dataValues?de=ULVYtRIxS5m&pe=201301&ou=DiszpKrYNg8&co=Prlt0C1RF0s"
+
+    console.log(document.location.origin);
+    var url =
+      document.location.origin +
+      "/amep/api/analytics?dimension=dx:ULVYtRIxS5m&dimension=pe:" +
+      prevPeriod +
+      "&dimension=ou:" +
+      vuFacilityID +
+      "&dimension=co";
+    //let jsondata = {"characters":[]};
+    //let output = {"dataSet": "NTAnNMukGLC","period": strAmpathdate,"orgUnit": vuFacilityID,"dataValues":[]};
+    //let tmp;
+    //let json;
+
+    $.get(url, function (data) {
+      console.log(typeof data); // string
+      //console.log( data); // HTML content of the jQuery.ajax page
+      $.each(data.rows, (index, item) => {
+        //console.log(item);
+        var str1 = item[0];
+        var str2 = str1.concat("-", item[1], "-val");
+        //console.log(str2);
+        var str1 = "BSY4eKfDfME";
+        var str2 = str1.concat("-", item[1], "-val");
+
+        var curValue = $("#" + str2).val();
+        if (curValue != parseInt(item[4])) {
+          $("#" + str2).val(parseInt(item[4]));
+          saveVal("BSY4eKfDfME", item[1], str2, str2);
+        }
+        getPrev.ProcessInToFromTransfer("ULVYtRIxS5m", "hCKhFFjWhYP", item[1]); //MMD_TX_CURR
+        getPrev.ProcessInToFromTransfer("ULVYtRIxS5m", "jjyAtaBUNHs", item[1]); //TXPVLS TX_CURR
+        getPrev.ProcessInToFromTransfer("ULVYtRIxS5m", "wYyjTy2Oef5", item[1]); //TXPVLS TX_CURR
+        getPrev.ProcessInToFromTransfer("ULVYtRIxS5m", "Qjkb0OsqGCi", item[1]); //Net Gain Quarterly TX_CURR
+
+        //TX_NEW duplication
+        //xuJoK3XVfW1 -Current Starting ART
+        //BODWOyeVz0H - TX_NEW Net Gain
+        getPrev.ProcessInToFromTransfer("xuJoK3XVfW1", "BODWOyeVz0H", item[1]); //TX_NEW Start NEW Monthly Net Gain
+        getPrev.ProcessInToFromTransfer("xuJoK3XVfW1", "NHnORlpg9qu", item[1]); //TX_NEW Start NEW Quarterly Net Gain
+        //TX_CURR MCH duplication
+        //GUsgZaKywgm - MCH Current on ART
+        //GVaXGjiydZ7 - PMTCT VL Tracking MCH TX_CURR
+        getPrev.ProcessInToFromTransfer("GUsgZaKywgm", "GVaXGjiydZ7", item[1]); //MCH_TX_CURR
+
+        //console.log(str2);
+        $("#" + str2)
+          .prop("disabled", true)
+          .css("background-color", "#cccccc")
+          .css("border", "1px solid #aaaaaa");
+
+        //tmp = {"dataElement": "BSY4eKfDfME","categoryOptionCombo": item[1],"attributeOptionCombo": "NhSoXUMPK2K","period": strAmpathdate,"orgUnit": vuFacilityID,"value": parseInt(item[4])};
+        ///tmp = {"dataElement": "BSY4eKfDfME","categoryOptionCombo": item[1],"value": parseInt(item[4])};
+        //BSY4eKfDfME Previouse TX_CURR
+        //output["dataValues"].push(tmp);
+      });
+      //console.log(output);
+      //json = JSON.stringify(output);
+      //console.log(json);
+    });
+    //totalBODWOyeVz0H
+    //getPrev.reCalculateDataelement('BODWOyeVz0H');
+
+    //url = document.location.origin + "/amep/api/dataValueSets?dataElementIdScheme=code&orgUnitIdScheme=code&dryRun=true&importStrategy=CREATE";
+    //console.log(url);
+    //$.ajax({type: 'POST',
+    //   url: url,
+    //	contentType: 'application/json; charset=utf-8',
+    //	dataType: 'json',
+    //	data: json,
+    //   success: function (data) {
+    //       console.log(data);
+    //},});
+
+    // GETTING DATA FOR PREVIOUS QUARTER
+
+    var yr1 = 0;
+    var month1 = 0;
+
+    if (month == 1) {
+      yr1 = yr - 1;
+      month1 = 10;
+    } else if (month == 2) {
+      yr1 = yr - 1;
+      month1 = 11;
+    } else if (month == 3) {
+      yr1 = yr - 1;
+      month1 = 12;
+    } else {
+      month1 = month - 2;
+      yr1 = yr;
+    }
+    console.log("The prev year : " + yr1);
+    console.log("The prev month : " + month1);
+    var prevPeriod1 = yr1 + ("0" + month1).slice(-2);
+    console.log("The prev period : " + prevPeriod);
+    var vuFacilityID1 = dhis2.de.currentOrganisationUnitId;
+    console.log("The OrgUnit : " + vuFacilityID1);
+    //ULVYtRIxS5m
+    //Make the API call to get data for dataelement  ULVYtRIxS5m
+    //api/dataValues?de=ULVYtRIxS5m&pe=201301&ou=DiszpKrYNg8&co=Prlt0C1RF0s"
+
+    console.log(document.location.origin);
+
+    var url1 =
+      document.location.origin +
+      "/amep/api/analytics?dimension=dx:ULVYtRIxS5m&dimension=pe:" +
+      prevPeriod1 +
+      "&dimension=ou:" +
+      vuFacilityID1 +
+      "&dimension=co";
+
+    //var url1 = document.location.origin + "/amep/api/analytics?dimension=dx:ULVYtRIxS5m&dimension=pe:" + prevPeriod1 + "&dimension=ou:" +  vuFacilityID1 + "&dimension=co";
+    //let jsondata = {"characters":[]};
+    //let output = {"dataSet": "NTAnNMukGLC","period": strAmpathdate,"orgUnit": vuFacilityID,"dataValues":[]};
+    //let tmp;
+    //let json;
+
+    $.get(url1, function (data) {
+      console.log(typeof data); // string
+      //console.log( data); // HTML content of the jQuery.ajax page
+      $.each(data.rows, (index, item) => {
+        //console.log(item);
+        var str11 = item[0];
+        var str21 = str11.concat("-", item[1], "-val");
+        //console.log(str2);
+        var str11 = "AuCuJTEJf2W";
+        var str21 = str11.concat("-", item[1], "-val");
+
+        var curValue = $("#" + str21).val();
+        if (curValue != parseInt(item[4])) {
+          $("#" + str21).val(parseInt(item[4]));
+          saveVal("AuCuJTEJf2W", item[1], str21, str21);
+        }
+
+        //console.log(str2);
+        $("#" + str21)
+          .prop("disabled", true)
+          .css("background-color", "#cccccc")
+          .css("border", "1px solid #aaaaaa");
+
+        //tmp = {"dataElement": "BSY4eKfDfME","categoryOptionCombo": item[1],"attributeOptionCombo": "NhSoXUMPK2K","period": strAmpathdate,"orgUnit": vuFacilityID,"value": parseInt(item[4])};
+        ///tmp = {"dataElement": "BSY4eKfDfME","categoryOptionCombo": item[1],"value": parseInt(item[4])};
+        //BSY4eKfDfME Previouse TX_CURR
+        //output["dataValues"].push(tmp);
+      });
+      //console.log(output);
+      //json = JSON.stringify(output);
+      //console.log(json);
+    });
+
+    // GETTING DATA FOR PREVIOUS Two Months
+
+    var yr11 = 0;
+    var month11 = 0;
+
+    if (month == 1) {
+      yr11 = yr - 1;
+      month11 = 11;
+    } else if (month == 2) {
+      yr11 = yr - 1;
+      month11 = 12;
+    } else if (month == 3) {
+      yr11 = yr;
+      month11 = 1;
+    } else if (month == 4) {
+      yr11 = yr;
+      month11 = 2;
+    } else if (month == 5) {
+      yr11 = yr;
+      month11 = 3;
+    } else if (month == 6) {
+      yr11 = yr;
+      month11 = 4;
+    } else if (month == 7) {
+      yr11 = yr;
+      month11 = 5;
+    } else if (month == 8) {
+      yr11 = yr;
+      month11 = 6;
+    } else if (month == 9) {
+      yr11 = yr;
+      month11 = 7;
+    } else if (month == 10) {
+      yr11 = yr;
+      month11 = 8;
+    } else if (month == 11) {
+      yr11 = yr;
+      month11 = 9;
+    } else if (month == 12) {
+      yr11 = yr;
+      month11 = 10;
+    }
+    //else{
+    //month11 =month-2;
+    //yr11=yr;
+    //}
+    console.log("The prev year : " + yr11);
+    console.log("The prev month : " + month11);
+    var prevPeriod11 = yr11 + ("0" + month11).slice(-2);
+    console.log("The prev period : " + prevPeriod11);
+    var vuFacilityID11 = dhis2.de.currentOrganisationUnitId;
+    console.log("The OrgUnit : " + vuFacilityID11);
+    //ULVYtRIxS5m
+    //Make the API call to get data for dataelement  ULVYtRIxS5m
+    //api/dataValues?de=ULVYtRIxS5m&pe=201301&ou=DiszpKrYNg8&co=Prlt0C1RF0s"
+
+    console.log(document.location.origin);
+    var url11 =
+      document.location.origin +
+      "/amep/api/analytics?dimension=dx:xuJoK3XVfW1&dimension=pe:" +
+      prevPeriod11 +
+      "&dimension=ou:" +
+      vuFacilityID11 +
+      "&dimension=co";
+
+    //var url11 = document.location.origin + "/amep/api/analytics?dimension=dx:xuJoK3XVfW1&dimension=pe:" + prevPeriod11 + "&dimension=ou:" +  vuFacilityID11 + "&dimension=co";
+    //let jsondata = {"characters":[]};
+    //let output = {"dataSet": "NTAnNMukGLC","period": strAmpathdate,"orgUnit": vuFacilityID,"dataValues":[]};
+    //let tmp;
+    //let json;
+
+    $.get(url11, function (data) {
+      console.log(typeof data); // string
+      //console.log( data); // HTML content of the jQuery.ajax page
+      $.each(data.rows, (index, item) => {
+        //console.log(item);
+        var str111 = item[0];
+        var str211 = str111.concat("-", item[1], "-val");
+        //console.log(str2);
+        var str111 = "GhibwSjhc9A";
+        var str211 = str111.concat("-", item[1], "-val");
+
+        var curValue = $("#" + str211).val();
+        if (curValue != parseInt(item[4])) {
+          $("#" + str211).val(parseInt(item[4]));
+          saveVal("GhibwSjhc9A", item[1], str211, str211);
+        }
+
+        //console.log(str2);
+        $("#" + str211)
+          .prop("disabled", true)
+          .css("background-color", "#cccccc")
+          .css("border", "1px solid #aaaaaa");
+
+        //tmp = {"dataElement": "BSY4eKfDfME","categoryOptionCombo": item[1],"attributeOptionCombo": "NhSoXUMPK2K","period": strAmpathdate,"orgUnit": vuFacilityID,"value": parseInt(item[4])};
+        ///tmp = {"dataElement": "BSY4eKfDfME","categoryOptionCombo": item[1],"value": parseInt(item[4])};
+        //BSY4eKfDfME Previouse TX_CURR
+        //output["dataValues"].push(tmp);
+      });
+      //console.log(output);
+      //json = JSON.stringify(output);
+      //console.log(json);
+    });
+
+    // GETTING DATA FOR PREVIOUS Month
+
+    var yr111 = 0;
+    var month111 = 0;
+
+    if (month == 1) {
+      yr111 = yr - 1;
+      month111 = 12;
+    } else {
+      month111 = month - 1;
+      yr111 = yr;
+    }
+    console.log("The prev year : " + yr111);
+    console.log("The prev month : " + month111);
+    var prevPeriod111 = yr111 + ("0" + month111).slice(-2);
+    console.log("The prev period : " + prevPeriod111);
+    var vuFacilityID111 = dhis2.de.currentOrganisationUnitId;
+    console.log("The OrgUnit : " + vuFacilityID111);
+    //ULVYtRIxS5m
+    //Make the API call to get data for dataelement  ULVYtRIxS5m
+    //api/dataValues?de=ULVYtRIxS5m&pe=201301&ou=DiszpKrYNg8&co=Prlt0C1RF0s"
+
+    console.log(document.location.origin);
+
+    var url111 =
+      document.location.origin +
+      "/amep/api/analytics?dimension=dx:xuJoK3XVfW1&dimension=pe:" +
+      prevPeriod111 +
+      "&dimension=ou:" +
+      vuFacilityID111 +
+      "&dimension=co";
+
+    //var url111 = document.location.origin + "/amep/api/analytics?dimension=dx:xuJoK3XVfW1&dimension=pe:" + prevPeriod111 + "&dimension=ou:" +  vuFacilityID111 + "&dimension=co";
+    //let jsondata = {"characters":[]};
+    //let output = {"dataSet": "NTAnNMukGLC","period": strAmpathdate,"orgUnit": vuFacilityID,"dataValues":[]};
+    //let tmp;
+    //let json;
+
+    $.get(url111, function (data) {
+      console.log(typeof data); // string
+      //console.log( data); // HTML content of the jQuery.ajax page
+      $.each(data.rows, (index, item) => {
+        //console.log(item);
+        var str1111 = item[0];
+        var str2111 = str1111.concat("-", item[1], "-val");
+        //console.log(str2);
+        var str1111 = "HqL6dw0yHvR";
+        var str2111 = str1111.concat("-", item[1], "-val");
+
+        var curValue = $("#" + str2111).val();
+        if (curValue != parseInt(item[4])) {
+          $("#" + str2111).val(parseInt(item[4]));
+          saveVal("HqL6dw0yHvR", item[1], str2111, str2111);
+        }
+
+        //console.log(str2);
+        $("#" + str2111)
+          .prop("disabled", true)
+          .css("background-color", "#cccccc")
+          .css("border", "1px solid #aaaaaa");
+
+        //tmp = {"dataElement": "BSY4eKfDfME","categoryOptionCombo": item[1],"attributeOptionCombo": "NhSoXUMPK2K","period": strAmpathdate,"orgUnit": vuFacilityID,"value": parseInt(item[4])};
+        ///tmp = {"dataElement": "BSY4eKfDfME","categoryOptionCombo": item[1],"value": parseInt(item[4])};
+        //BSY4eKfDfME Previouse TX_CURR
+        //output["dataValues"].push(tmp);
+      });
+      //console.log(output);
+      //json = JSON.stringify(output);
+      //console.log(json);
+    });
+
+    //totalBODWOyeVz0H
+    //getPrev.reCalculateDataelement('BODWOyeVz0H');
+
+    //url = document.location.origin + "/amep/api/dataValueSets?dataElementIdScheme=code&orgUnitIdScheme=code&dryRun=true&importStrategy=CREATE";
+    //console.log(url);
+    //$.ajax({type: 'POST',
+    //   url: url,
+    //	contentType: 'application/json; charset=utf-8',
+    //	dataType: 'json',
+    //	data: json,
+    //   success: function (data) {
+    //       console.log(data);
+    //},});
+  });
+
+  dhis2.util.on(dhis2.de.event.dataValueSaved, function (event, ds, dv) {
+    //xuJoK3XVfW1 -Current Starting ART
+    //ULVYtRIxS5m -Current TX_CURR
+    //GUsgZaKywgm -Current TX_CURR MCH
+    if (dv.de == "ULVYtRIxS5m") {
+      getPrev.ProcessInToFromTransfer(dv.de, "hCKhFFjWhYP", dv.co); //MMD_TX_CURR
+      getPrev.ProcessInToFromTransfer(dv.de, "jjyAtaBUNHs", dv.co); //TXPVLS TX_CURR
+      getPrev.ProcessInToFromTransfer(dv.de, "wYyjTy2Oef5", dv.co); //Net Gain Monthly TX_CURR
+      getPrev.ProcessInToFromTransfer(dv.de, "Qjkb0OsqGCi", dv.co); //Net Gain Quarterly TX_CURR
+    }
+    if (dv.de == "xuJoK3XVfW1") {
+      getPrev.ProcessInToFromTransfer(dv.de, "BODWOyeVz0H", dv.co); //TX_NEW Same Period Monthly Net Gain
+      getPrev.ProcessInToFromTransfer(dv.de, "NHnORlpg9qu", dv.co); //TX_NEW Same Period Quarterly Net gain
+    }
+    if (dv.de == "GUsgZaKywgm") {
+      getPrev.ProcessInToFromTransfer(dv.de, "GVaXGjiydZ7", dv.co); //MCH_TX_CURR
+    }
+  });
+</script>
