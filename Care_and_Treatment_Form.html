@@ -79,6 +79,7 @@
       <li><a href="#tabs-2">Viral Load Monitoring</a></li>
       <li><a href="#tabs-3">Retention and Attrition </a></li>
       <li><a href="#tabs-4">CXCA_SCRN</a></li>
+      <li><a href="#tabs-5">PMTCT_EID / PMTCT_FO</a></li>
     </ul>
 
     <div id="tabs-1">
@@ -18300,7 +18301,7 @@
       <table cellpadding="0" cellspacing="0">
         <thead>
           <tr>
-            <th colspan="10" class="sub-heading-row">
+            <th class="sub-heading-row" colspan="10">
               Cervical Cancer Screening (CXCA_SCRN)
             </th>
           </tr>
@@ -20785,6 +20786,9 @@
         </tbody>
       </table>
     </div>
+    <div id="tabs-5">
+      <table cellpadding="0" cellspacing="0"></table>
+    </div>
   </div>
 </div>
 <script type="text/javascript">
@@ -21211,22 +21215,22 @@
     //},});
   });
 
-  //   dhis2.util.on(dhis2.de.event.dataValueSaved, function (event, ds, dv) {
-  //     //xuJoK3XVfW1 -Current Starting ART
-  //     //ULVYtRIxS5m -Current TX_CURR
-  //     //GUsgZaKywgm -Current TX_CURR MCH
-  //     if (dv.de == "ULVYtRIxS5m") {
-  //       getPrev.ProcessInToFromTransfer(dv.de, "hCKhFFjWhYP", dv.co); //MMD_TX_CURR
-  //       getPrev.ProcessInToFromTransfer(dv.de, "jjyAtaBUNHs", dv.co); //TXPVLS TX_CURR
-  //       getPrev.ProcessInToFromTransfer(dv.de, "wYyjTy2Oef5", dv.co); //Net Gain Monthly TX_CURR
-  //       getPrev.ProcessInToFromTransfer(dv.de, "Qjkb0OsqGCi", dv.co); //Net Gain Quarterly TX_CURR
-  //     }
-  //     if (dv.de == "xuJoK3XVfW1") {
-  //       getPrev.ProcessInToFromTransfer(dv.de, "BODWOyeVz0H", dv.co); //TX_NEW Same Period Monthly Net Gain
-  //       getPrev.ProcessInToFromTransfer(dv.de, "NHnORlpg9qu", dv.co); //TX_NEW Same Period Quarterly Net gain
-  //     }
-  //     if (dv.de == "GUsgZaKywgm") {
-  //       getPrev.ProcessInToFromTransfer(dv.de, "GVaXGjiydZ7", dv.co); //MCH_TX_CURR
-  //     }
-  //   });
+  dhis2.util.on(dhis2.de.event.dataValueSaved, function (event, ds, dv) {
+    //xuJoK3XVfW1 -Current Starting ART
+    //ULVYtRIxS5m -Current TX_CURR
+    //GUsgZaKywgm -Current TX_CURR MCH
+    if (dv.de == "ULVYtRIxS5m") {
+      getPrev.ProcessInToFromTransfer(dv.de, "hCKhFFjWhYP", dv.co); //MMD_TX_CURR
+      getPrev.ProcessInToFromTransfer(dv.de, "jjyAtaBUNHs", dv.co); //TXPVLS TX_CURR
+      getPrev.ProcessInToFromTransfer(dv.de, "wYyjTy2Oef5", dv.co); //Net Gain Monthly TX_CURR
+      getPrev.ProcessInToFromTransfer(dv.de, "Qjkb0OsqGCi", dv.co); //Net Gain Quarterly TX_CURR
+    }
+    if (dv.de == "xuJoK3XVfW1") {
+      getPrev.ProcessInToFromTransfer(dv.de, "BODWOyeVz0H", dv.co); //TX_NEW Same Period Monthly Net Gain
+      getPrev.ProcessInToFromTransfer(dv.de, "NHnORlpg9qu", dv.co); //TX_NEW Same Period Quarterly Net gain
+    }
+    if (dv.de == "GUsgZaKywgm") {
+      getPrev.ProcessInToFromTransfer(dv.de, "GVaXGjiydZ7", dv.co); //MCH_TX_CURR
+    }
+  });
 </script>
